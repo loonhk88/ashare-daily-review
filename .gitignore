@@ -8,6 +8,14 @@ node_modules/
 # MCP 取数中间缓存（可重新生成）
 tools/cache/*.json
 
+# 凭据文件（绝不提交）
+.ashare-review.env
+*.env
+.env*
+
+# 自动任务日志
+logs/
+
 # 本地预览/临时产物
 _probe/
 _t/
