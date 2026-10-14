@@ -1,0 +1,15 @@
+# 忽略缓存与临时文件
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+node_modules/
+
+# MCP 取数中间缓存（可重新生成）
+tools/cache/*.json
+
+# 本地预览/临时产物
+_probe/
+_t/
+*.log
+nohup.out
