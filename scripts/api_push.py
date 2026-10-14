@@ -109,9 +109,13 @@ def main():
     files = collect_files(root)
     print("待上传 %d 个文件" % len(files))
 
-    ok = fail = 0
+    ok = fail = skip = 0
     for i, rel in enumerate(files, 1):
         msg = "Add %s" % rel
+        # .github/workflows/* 需要 token 具备 workflow scope；
+        # 缺失时 GitHub 返回 404。这不是致命错误（Pages 走分支部署即可），
+        # 故记为 skip 而不是 fail。
+        needs_workflow_scope = rel.startswith(".github/workflows/")
         for attempt in range(3):
             st, d = put_file(a.owner, a.repo, rel, a.branch, token, msg)
             if st in (200, 201):
@@ -124,6 +128,11 @@ def main():
             if st is None:
                 time.sleep(2)
                 continue
+            if needs_workflow_scope and st == 404:
+                skip += 1
+                print("  [%d/%d] ⊘ %s -> 跳过（token 缺 workflow scope，不影响站点）"
+                      % (i, len(files), rel))
+                break
             fail += 1
             print("  [%d/%d] ✗ %s -> HTTP %s %s"
                   % (i, len(files), rel, st, str(d.get("message"))[:70]))
@@ -131,8 +140,9 @@ def main():
         time.sleep(0.15)           # 轻微限速，避免触发 abuse 检测
 
     print()
-    print("完成: 成功 %d, 失败 %d" % (ok, fail))
-    return 0 if fail == 0 else 1
+    print("完成: 成功 %d, 跳过 %d, 失败 %d" % (ok, skip, fail))
+    # 只要站点核心文件成功上传，即视为发布成功
+    return 1 if fail > 0 else 0
 
 
 if __name__ == "__main__":
