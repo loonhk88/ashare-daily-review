@@ -492,7 +492,16 @@ def get_breadth(date):
     pcts = None
     if obj and obj.get("data") and obj["data"].get("diff"):
         diff = obj["data"]["diff"]
-        pcts = [nz(d.get("f3")) for d in diff]
+        # ⚠️ 关键校验：push2 被限流时会「成功」返回但只给 ~100 条截断数据，
+        # 若不加校验会得到严重失真的涨跌家数（实测 2026-10-16 只返回 100 只）。
+        # 沪深京 A 股约 5500+ 只，低于 3000 即判定为截断，改用新浪。
+        if len(diff) < 3000:
+            fallback("涨跌分布(东财)",
+                     "返回 %d 条，疑被截断（应为 5000+）" % len(diff),
+                     "已改用新浪全市场分页")
+            pcts = breadth_sina()
+        else:
+            pcts = [nz(d.get("f3")) for d in diff]
     else:
         fallback("涨跌分布(东财)", err, "已改用新浪全市场分页")
         pcts = breadth_sina()
@@ -531,6 +540,10 @@ def breadth_sina(max_pages=60, per_page=100):
             break
     if out:
         print("      [breadth] 新浪共取 %d 只" % len(out), file=sys.stderr)
+        # 若不足 3000 只，说明分页中途失败，返回不完整数据会严重失真
+        if len(out) < 3000:
+            note("涨跌分布(新浪)", "仅取到 %d 只，分页可能中断" % len(out))
+            return []
     return out
 
 
