@@ -94,7 +94,10 @@ if git remote get-url origin >/dev/null 2>&1; then
 fi
 
 if [ "$PUBLISHED" -eq 0 ]; then
-  GH_TOKEN="$GH_TOKEN" python3 scripts/api_push.py "$GH_OWNER" "$GH_REPO" >>"$LOG" 2>&1
+  # 用 Git Data API 做单次原子提交：只产生 1 次 commit、1 次 Pages 构建。
+  # 原因：逐文件提交会产生 N 次 commit，每次触发一次 Pages 构建，
+  # 直接击穿 legacy 构建配额（10 次/小时），导致 "Page build failed."。
+  GH_TOKEN="$GH_TOKEN" python3 scripts/git_push.py "$GH_OWNER" "$GH_REPO"     --message "复盘 $DATE" >>"$LOG" 2>&1
   API_RC=$?
   # api_push 在「核心文件已上传、个别文件被跳过」时可能仍返回非 0，
   # 故以远端实际状态做二次确认，避免误报失败。
