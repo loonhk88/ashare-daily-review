@@ -352,8 +352,11 @@ def ch3_sentiment(d, an):
 
     if b.get("buckets"):
         bk = b["buckets"]
+        # 注意：本表为「按涨跌幅区间」的统计口径，与第 4/5 章的
+        # 「涨停专题」口径不同（专题已剔除新股/ST 等特殊规则），
+        # 故首末两档命名为「涨停区间」「跌停区间」以示区分。
         rows = [
-            ("涨停", bk.get("limit_up"), "up"),
+            ("涨停区间", bk.get("limit_up"), "up"),
             ("&gt;+7%", bk.get("gt7"), "up"),
             ("+5~7%", bk.get("b5_7"), "up"),
             ("+2~5%", bk.get("b2_5"), "up"),
@@ -363,10 +366,14 @@ def ch3_sentiment(d, an):
             ("-2~-5%", bk.get("d2_5"), "down"),
             ("-5~-7%", bk.get("d5_7"), "down"),
             ("&lt;-7%", bk.get("lt_d7"), "down"),
-            ("跌停", bk.get("limit_down"), "down"),
+            ("跌停区间", bk.get("limit_down"), "down"),
         ]
         mx = max([r[1] or 0 for r in rows] + [1])
         h.append('<h3 class="sub">涨跌幅分布（沪深京 A 股，共 %s 只）</h3>' % n(b.get("total"), 0))
+        h.append('<div class="note">本表为<b>按涨跌幅区间统计</b>的口径：'
+                 '「涨停区间」指涨幅达到该板块涨停幅度的个股（主板≥9.8%、双创≥19.8%、北交所≥29.8%），'
+                 '<b>因无法逐一识别新股上市首日、ST 股（±5%）等特殊规则，数值与第 4 章「涨跌停专题」'
+                 '（已剔除特殊情形）可能存在小幅差异</b>，请以专题口径为准。</div>')
         h.append('<div class="dist">')
         for lb, c, c2 in rows:
             w = (c or 0) / mx * 100

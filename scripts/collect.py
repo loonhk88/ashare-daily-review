@@ -501,7 +501,7 @@ def get_breadth(date):
                      "已改用新浪全市场分页")
             pcts = breadth_sina()
         else:
-            pcts = [nz(d.get("f3")) for d in diff]
+            pcts = [(str(d.get("f12") or ""), nz(d.get("f3"))) for d in diff]
     else:
         fallback("涨跌分布(东财)", err, "已改用新浪全市场分页")
         pcts = breadth_sina()
@@ -535,7 +535,8 @@ def breadth_sina(max_pages=60, per_page=100):
         for r in arr:
             v = nz(r.get("changepercent"))
             if v is not None:
-                out.append(v)
+                # 保留代码，用于按板块判断涨停阈值（主板10cm/双创20cm/ST5cm/北交所30cm）
+                out.append((str(r.get("code") or ""), v))
         if len(arr) < per_page:
             break
     if out:
@@ -547,13 +548,41 @@ def breadth_sina(max_pages=60, per_page=100):
     return out
 
 
-def tally_breadth(pcts):
-    """把涨跌幅列表分档统计。"""
+def is_limit_up(code, pct):
+    """按板块判断是否涨停。
+
+    A 股各板块涨跌幅限制不同，不能用单一阈值：
+      主板(60/00)       ±10%  -> 阈值 9.8
+      创业板(30)/科创(68) ±20%  -> 阈值 19.8
+      北交所(8/4/9)      ±30%  -> 阈值 29.8
+      ST 股              ±5%   -> 阈值 4.8
+    无法判断板块时退回 9.8（覆盖最常见的 10cm）。
+    """
+    if pct is None:
+        return False
+    lim = 9.8
+    c = str(code or "")
+    if c.startswith(("30", "68")):
+        lim = 19.8
+    elif c.startswith(("8", "4", "9")):
+        lim = 29.8
+    return pct >= lim
+
+
+def tally_breadth(rows):
+    """把 (code, 涨跌幅) 列表分档统计。
+
+    rows 元素为 (code, pct) 或 纯 pct（向后兼容）。
+    """
     buckets = {"limit_up": 0, "gt7": 0, "b5_7": 0, "b2_5": 0, "b0_2": 0,
                "flat": 0, "d0_2": 0, "d2_5": 0, "d5_7": 0, "lt_d7": 0,
                "limit_down": 0}
     up = down = flat = 0
-    for p in pcts:
+    for item in rows:
+        if isinstance(item, (tuple, list)):
+            code, p = (item + (None,))[:2] if len(item) < 2 else item[:2]
+        else:
+            code, p = "", item
         if p is None:
             continue
         if p > 0:
@@ -562,9 +591,22 @@ def tally_breadth(pcts):
             down += 1
         else:
             flat += 1
-        if p >= 19.8:
+
+        if is_limit_up(code, p):
             buckets["limit_up"] += 1
-        elif p >= 7:
+            continue
+        # 跌停：按板块对称判断
+        c = str(code or "")
+        lim = 9.8
+        if c.startswith(("30", "68")):
+            lim = 19.8
+        elif c.startswith(("8", "4", "9")):
+            lim = 29.8
+        if p <= -lim:
+            buckets["limit_down"] += 1
+            continue
+
+        if p >= 7:
             buckets["gt7"] += 1
         elif p >= 5:
             buckets["b5_7"] += 1
@@ -580,11 +622,10 @@ def tally_breadth(pcts):
             buckets["d2_5"] += 1
         elif p > -7:
             buckets["d5_7"] += 1
-        elif p > -19.8:
-            buckets["lt_d7"] += 1
         else:
-            buckets["limit_down"] += 1
-    return {"up": up, "down": down, "flat": flat, "total": len(pcts),
+            buckets["lt_d7"] += 1
+
+    return {"up": up, "down": down, "flat": flat, "total": len(rows),
             "buckets": buckets}
 
 
@@ -757,6 +798,37 @@ def fundflow_sina(top=30, max_pages=2, per_page=100):
 
 
 # ---------------------------------------------------------------- utils
+def _cross_check_limit(data):
+    """校验「涨跌幅分布」与「涨跌停专题」的涨停/跌停数是否一致。
+
+    两者口径本就略有差异（专题含 ST/新股等特殊规则），但若差距过大
+    说明分档阈值有误，记录 warning 以便追溯（不阻断流程）。
+    """
+    b = (data.get("breadth") or {}).get("buckets") or {}
+    zt = (data.get("zt") or {}).get("count")
+    dt_ = (data.get("dt") or {}).get("count")
+    warns = []
+    if zt and b.get("limit_up") is not None:
+        d = abs(b["limit_up"] - zt)
+        if d > max(5, zt * 0.2):
+            warns.append("涨停 分布%d vs 专题%s（差%d）" % (b["limit_up"], zt, d))
+    if dt_ and b.get("limit_down") is not None:
+        d = abs(b["limit_down"] - dt_)
+        if d > max(3, dt_ * 0.3):
+            warns.append("跌停 分布%d vs 专题%s（差%d）" % (b["limit_down"], dt_, d))
+    if warns:
+        for w in warns:
+            print("      [warn] %s" % w, file=sys.stderr)
+        fb = data.setdefault("fallbacks", [])
+        fb.append({"item": "涨跌停口径校验",
+                   "reason": "；".join(warns),
+                   "action": "仅记录，请人工核对"})
+    else:
+        print("      [check] 涨跌停口径一致（分布 %s/%s vs 专题 %s/%s）"
+              % (b.get("limit_up"), b.get("limit_down"), zt, dt_),
+              file=sys.stderr)
+
+
 def nz(v):
     if v is None or v == "-" or v == "":
         return None
@@ -851,6 +923,9 @@ def collect(date):
     con.sort(key=lambda x: x["change_pct"] or -999, reverse=True)
     data["concept_top"] = con[:20]
     data["concept_bottom"] = con[-8:]
+
+    # 分布口径与涨跌停专题交叉校验（两者应大致一致）
+    _cross_check_limit(data)
 
     print("  - 龙虎榜 ...", file=sys.stderr)
     data["lhb"] = get_lhb(date)
