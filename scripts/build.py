@@ -348,6 +348,14 @@ def ch3_sentiment(d, an):
     h.append('<div class="kpi"><div class="k">炸板</div><div class="v">%s</div>'
              '<div class="x">炸板率 %s%%</div></div>'
              % (n(zb.get("count"), 0), n(zb_rate, 1)))
+    # 北向资金（同花顺沪深股通分钟累计）
+    nb = d.get("northbound")
+    if nb and nb.get("total") is not None:
+        h.append('<div class="kpi %s"><div class="k">北向资金</div>'
+                 '<div class="v">%s亿</div>'
+                 '<div class="x">沪 %s / 深 %s（截至%s）</div></div>'
+                 % (cls(nb["total"]), n(nb["total"]),
+                    n(nb.get("hgt")), n(nb.get("sgt")), esc(nb.get("last_time") or "")))
     h.append('</div>')
 
     if b.get("buckets"):
@@ -429,25 +437,37 @@ def ch4_zt(d, an):
                 n(len([r for r in rows if boards_of(r)[0] > 1]), 0),
                 n(len([r for r in rows if boards_of(r)[0] <= 1]), 0)))
 
-    h.append('<div class="tw"><table><thead><tr>'
-             '<th>#</th><th>个股</th><th class="num">收盘</th><th class="num">涨幅</th>'
-             '<th class="num">连板</th><th class="num">首封时间</th>'
-             '<th class="num">封单额(万)</th><th class="num">封成比</th>'
-             '<th class="num">开板</th><th>行业</th></tr></thead><tbody>')
+    # 是否含同花顺涨停原因
+    has_reason = any(r.get("reason") for r in rows)
+    th = ('<th>#</th><th>个股</th><th class="num">收盘</th><th class="num">涨幅</th>'
+          '<th class="num">连板</th>')
+    if has_reason:
+        th += '<th>涨停原因 / 题材</th><th>板型</th>'
+    th += ('<th class="num">首封时间</th><th class="num">封单额(万)</th>'
+           '<th class="num">封成比</th><th class="num">开板</th></tr>')
+    h.append('<div class="tw"><table><thead><tr>' + th + '</thead><tbody>')
     for i, r in enumerate(rows[:80], 1):
         boards, board_txt = boards_of(r)
-        h.append('<tr%s><td class="num">%d</td><td class="name">%s <span class="tag">%s</span></td>'
-                 '<td class="num">%s</td><td class="num">%s</td><td class="num">%s</td>'
-                 '<td class="num">%s</td><td class="num">%s</td><td class="num">%s</td>'
-                 '<td class="num">%s</td><td>%s</td></tr>'
-                 % (" class=\"hl\"" if (boards or 0) >= 3 else "",
-                    i, esc(r.get("name")), esc(r.get("code")),
-                    n(r.get("close")), pctc(r.get("change_pct")), board_txt,
-                    esc(r.get("first_seal_time") or "—"),
-                    n(r.get("seal_amount") and r["seal_amount"] / 1e4),
-                    n(r.get("seal_ratio")), n(r.get("broken_count"), 0),
-                    esc(r.get("industry") or "—")))
+        tds = ('<td class="num">%d</td><td class="name">%s <span class="tag">%s</span></td>'
+               '<td class="num">%s</td><td class="num">%s</td><td class="num">%s</td>'
+               % (i, esc(r.get("name")), esc(r.get("code")),
+                  n(r.get("close")), pctc(r.get("change_pct")), board_txt))
+        if has_reason:
+            rs = r.get("reason")
+            tds += ('<td>%s</td><td>%s</td>'
+                    % (('<span class="reason">%s</span>' % esc(rs)) if rs else '<span class="flat">—</span>',
+                       esc(r.get("board_type") or "—")))
+        tds += ('<td class="num">%s</td><td class="num">%s</td><td class="num">%s</td>'
+                '<td class="num">%s</td>'
+                % (esc(r.get("first_seal_time") or "—"),
+                   n(r.get("seal_amount") and r["seal_amount"] / 1e4),
+                   n(r.get("seal_ratio")), n(r.get("broken_count"), 0)))
+        h.append('<tr%s>%s</tr>'
+                 % (" class=\"hl\"" if (boards or 0) >= 3 else "", tds))
     h.append('</tbody></table></div>')
+    if has_reason:
+        h.append('<div class="note">「涨停原因 / 题材」与「板型」取自<b>同花顺涨停揭秘</b>，'
+                 '为该数据商的题材归因结果，<b>非上市公司正式披露</b>，可能存在滞后或错配。</div>')
 
     if len(rows) > 80:
         h.append('<div class="note">表格仅展示前 80 只（共 %d 只），完整数据见同目录 JSON。</div>'
@@ -705,6 +725,60 @@ def ch11_watch(d, an, date):
         for x in an["playbook"]:
             h.append('<li>%s</li>' % x)
         h.append('</ul>')
+
+    # ---- 新增：次日事项提示（停复牌 / 新股申购 / 限售解禁）----
+    susp = d.get("suspensions")
+    ipos = d.get("ipo_calendar")
+    lock = d.get("lockup")
+    if susp or ipos or (lock is not None):
+        h.append('<h3 class="sub">次日事项提示</h3>')
+
+    if susp:
+        h.append('<p><b>停复牌（%d 只）</b></p>' % len(susp))
+        h.append('<div class="tw"><table><thead><tr><th>个股</th><th>停牌起</th>'
+                 '<th>预计复牌</th><th>原因</th></tr></thead><tbody>')
+        for r in susp[:12]:
+            h.append('<tr><td class="name">%s <span class="tag">%s</span></td>'
+                     '<td class="num">%s</td><td class="num">%s</td><td>%s</td></tr>'
+                     % (esc(r.get("name")), esc(r.get("code")),
+                        esc((r.get("start") or "")[:10]), esc(r.get("resume_date") or "—"),
+                        esc(r.get("reason") or "—")))
+        h.append('</tbody></table></div>')
+        if len(susp) > 12:
+            h.append('<div class="note">仅展示前 12 只（共 %d 只）。</div>' % len(susp))
+
+    if ipos:
+        h.append('<p><b>新股申购（%d 只）</b></p>' % len(ipos))
+        h.append('<div class="tw"><table><thead><tr><th>申购日</th><th>新股</th>'
+                 '<th class="num">发行价</th><th class="num">发行PE</th><th>市场</th>'
+                 '</tr></thead><tbody>')
+        for r in ipos:
+            h.append('<tr><td class="num">%s</td><td class="name">%s <span class="tag">%s</span></td>'
+                     '<td class="num">%s</td><td class="num">%s</td><td>%s</td></tr>'
+                     % (esc(r.get("apply_date")), esc(r.get("name")), esc(r.get("code")),
+                        n(r.get("price")), n(r.get("pe")), esc(r.get("market") or "—")))
+        h.append('</tbody></table></div>')
+
+    if lock is not None:
+        if lock:
+            # 按解禁市值排序，展示最大的一批
+            top = sorted(lock, key=lambda x: -(x.get("market_cap") or 0))[:10]
+            h.append('<p><b>限售解禁（未来 30 天共 %d 条，按解禁市值取前 10）</b></p>'
+                     % len(lock))
+            h.append('<div class="tw"><table><thead><tr><th>解禁日</th><th>个股</th>'
+                     '<th class="num">解禁股数(万股)</th><th class="num">占总股本</th>'
+                     '<th class="num">解禁市值(亿)</th><th>类型</th></tr></thead><tbody>')
+            for r in top:
+                h.append('<tr><td class="num">%s</td><td class="name">%s <span class="tag">%s</span></td>'
+                         '<td class="num">%s</td><td class="num">%s</td>'
+                         '<td class="num">%s</td><td>%s</td></tr>'
+                         % (esc(r.get("free_date")), esc(r.get("name")), esc(r.get("code")),
+                            n(r.get("shares_10k")),
+                            pct(r.get("ratio_pct")) if r.get("ratio_pct") is not None else "—",
+                            yi(r.get("market_cap")), esc(r.get("type") or "—")))
+            h.append('</tbody></table></div>')
+        else:
+            h.append('<p><b>限售解禁</b>：未来 30 天内无解禁安排。</p>')
     h.append('<div class="note">以上为基于公开数据的<b>研究观点</b>，非投资建议。</div>')
     h.append('</div>')
     return "\n".join(h)

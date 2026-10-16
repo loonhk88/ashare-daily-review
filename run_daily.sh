@@ -56,6 +56,12 @@ if ! python3 scripts/collect_em_sector.py "$DATE" \
      --merge "data/${DATE}.json" >>"$LOG" 2>&1; then
   log "⚠ 板块采集失败，页面第 6/7 章将缺数据"
 fi
+
+# 扩展数据（同花顺涨停原因/北向资金 + 东财停复牌/新股/解禁）
+if ! python3 scripts/collect_extra.py "$DATE" \
+     --merge "data/${DATE}.json" >>"$LOG" 2>&1; then
+  log "⚠ 扩展数据采集失败，涨停原因/北向/次日事项将缺失"
+fi
 log "✓ 采集完成"
 
 # ---------- 3. 构建 ----------

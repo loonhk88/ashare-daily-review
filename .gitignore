@@ -21,3 +21,6 @@ _probe/
 _t/
 *.log
 nohup.out
+
+# 本地备份（crontab 等）
+backups/

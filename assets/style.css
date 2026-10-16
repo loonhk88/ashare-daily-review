@@ -86,6 +86,10 @@ strong.up{color:var(--up-deep);} strong.down{color:var(--down-deep);}
 .tag.down{background:var(--down-soft);color:var(--down-deep);}
 .tag.gold{background:var(--gold-soft);color:var(--gold);}
 
+/* ---------- 涨停原因 ---------- */
+.reason{color:var(--brand-2);font-size:12.5px;}
+.tag.gold{background:var(--gold-soft);color:var(--gold);}
+
 /* ---------- 表格 ---------- */
 .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:12px 0;
   position:relative;}

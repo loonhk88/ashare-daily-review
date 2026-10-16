@@ -1,6 +1,6 @@
 {
  "date": "2026-10-16",
- "generated_at": "2026-10-16T20:56:15",
+ "generated_at": "2026-10-16T21:51:58",
  "kline_sh_full": [
   {
    "date": "2025-07-21",
@@ -4561,7 +4561,11 @@
     "industry": "出版",
     "stat": 11,
     "stat_boards": 11,
-    "seal_ratio": 367.39
+    "seal_ratio": 367.39,
+    "reason": "复牌+界面财联社重组+图书发行",
+    "board_type": "一字板",
+    "seal_rate": 0.75,
+    "high_days_ths": "11天11板"
    },
    {
     "code": "000530",
@@ -4581,7 +4585,11 @@
     "industry": "通用设备",
     "stat": 4,
     "stat_boards": 4,
-    "seal_ratio": 6.29
+    "seal_ratio": 6.29,
+    "reason": "冰雪工程+数据中心液冷+军工+冷热设备",
+    "board_type": "换手板",
+    "seal_rate": 0.7142857142857143,
+    "high_days_ths": "4天4板"
    },
    {
     "code": "601811",
@@ -4601,7 +4609,11 @@
     "industry": "出版",
     "stat": 15,
     "stat_boards": 11,
-    "seal_ratio": 1.5
+    "seal_ratio": 1.5,
+    "reason": "出版传媒+数字教育+民族出版收购",
+    "board_type": "换手板",
+    "seal_rate": 1.0,
+    "high_days_ths": "15天11板"
    },
    {
     "code": "603999",
@@ -4621,7 +4633,11 @@
     "industry": "出版",
     "stat": 2,
     "stat_boards": 2,
-    "seal_ratio": 75.76
+    "seal_ratio": 75.76,
+    "reason": "出版发行+数字出版+人工智能",
+    "board_type": "一字板",
+    "seal_rate": 1.0,
+    "high_days_ths": "2天2板"
    },
    {
     "code": "002889",
@@ -4641,7 +4657,11 @@
     "industry": "物流",
     "stat": 2,
     "stat_boards": 2,
-    "seal_ratio": 127.84
+    "seal_ratio": 127.84,
+    "reason": "半导体设备服务+智慧仓储+数字供应链",
+    "board_type": "一字板",
+    "seal_rate": 0.25,
+    "high_days_ths": "2天2板"
    },
    {
     "code": "003029",
@@ -4661,7 +4681,11 @@
     "industry": "软件开发",
     "stat": 2,
     "stat_boards": 2,
-    "seal_ratio": 5.66
+    "seal_ratio": 5.66,
+    "reason": "密码安全+数字货币+商业航天",
+    "board_type": "换手板",
+    "seal_rate": 0.6,
+    "high_days_ths": "2天2板"
    },
    {
     "code": "600668",
@@ -4681,7 +4705,11 @@
     "industry": "水泥",
     "stat": 2,
     "stat_boards": 2,
-    "seal_ratio": 3.0
+    "seal_ratio": 3.0,
+    "reason": "医药+原料药+水泥熟料",
+    "board_type": "换手板",
+    "seal_rate": 1.0,
+    "high_days_ths": "2天2板"
    },
    {
     "code": "600418",
@@ -4701,7 +4729,11 @@
     "industry": "商用车",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 15.65
+    "seal_ratio": 15.65,
+    "reason": "三部门联合调查+尊界V800",
+    "board_type": "换手板",
+    "seal_rate": 0.8571428571428571,
+    "high_days_ths": "首板"
    },
    {
     "code": "601606",
@@ -4721,7 +4753,11 @@
     "industry": "地面兵装",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 28.01
+    "seal_ratio": 28.01,
+    "reason": "弹药装备+订单交付+军民协同",
+    "board_type": "换手板",
+    "seal_rate": 1.0,
+    "high_days_ths": "首板"
    },
    {
     "code": "603197",
@@ -4741,7 +4777,11 @@
     "industry": "汽车零部",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 180.0
+    "seal_ratio": 180.0,
+    "reason": "飞行汽车+特斯拉概念+机器人传感器",
+    "board_type": "换手板",
+    "seal_rate": 1.0,
+    "high_days_ths": "首板"
    },
    {
     "code": "002085",
@@ -4761,7 +4801,11 @@
     "industry": "汽车零部",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 26.98
+    "seal_ratio": 26.98,
+    "reason": "低空经济+汽车轻量化+通航飞机",
+    "board_type": "换手板",
+    "seal_rate": 0.5,
+    "high_days_ths": "首板"
    },
    {
     "code": "000573",
@@ -4781,7 +4825,11 @@
     "industry": "房地产开",
     "stat": 3,
     "stat_boards": 2,
-    "seal_ratio": 448.17
+    "seal_ratio": 448.17,
+    "reason": "股权收购+精密传动+高端自动化+东莞地产",
+    "board_type": "一字板",
+    "seal_rate": 1.0,
+    "high_days_ths": "3天2板"
    },
    {
     "code": "001696",
@@ -4801,7 +4849,11 @@
     "industry": "通用设备",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 9.74
+    "seal_ratio": 9.74,
+    "reason": "低空经济+通用机械",
+    "board_type": "换手板",
+    "seal_rate": 0.75,
+    "high_days_ths": "首板"
    },
    {
     "code": "300411",
@@ -4821,7 +4873,11 @@
     "industry": "专用设备",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 26.52
+    "seal_ratio": 26.52,
+    "reason": "军工通风+低空经济+涵道推进器+核电",
+    "board_type": "换手板",
+    "seal_rate": 1.0,
+    "high_days_ths": "首板"
    },
    {
     "code": "000607",
@@ -4841,7 +4897,11 @@
     "industry": "广告营销",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 97.13
+    "seal_ratio": 97.13,
+    "reason": "文化传媒+AI漫剧+杭州日报",
+    "board_type": "一字板",
+    "seal_rate": 0.75,
+    "high_days_ths": "首板"
    },
    {
     "code": "000420",
@@ -4861,7 +4921,11 @@
     "industry": "化学纤维",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 13.71
+    "seal_ratio": 13.71,
+    "reason": "低空经济+冰雪产业+碳纤维+粘胶长丝",
+    "board_type": "换手板",
+    "seal_rate": 0.4,
+    "high_days_ths": "首板"
    },
    {
     "code": "603636",
@@ -4881,7 +4945,11 @@
     "industry": "IT服务Ⅱ",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 96.26
+    "seal_ratio": 96.26,
+    "reason": "AI短剧+游戏出海+政务智能体",
+    "board_type": "一字板",
+    "seal_rate": 1.0,
+    "high_days_ths": "首板"
    },
    {
     "code": "000576",
@@ -4901,7 +4969,11 @@
     "industry": "地面兵装",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 56.15
+    "seal_ratio": 56.15,
+    "reason": "军工电源+光电成像+特种合金+参股锴威特半导体",
+    "board_type": "换手板",
+    "seal_rate": 1.0,
+    "high_days_ths": "首板"
    },
    {
     "code": "600802",
@@ -4921,7 +4993,11 @@
     "industry": "水泥",
     "stat": 4,
     "stat_boards": 2,
-    "seal_ratio": 15.2
+    "seal_ratio": 15.2,
+    "reason": "水泥熟料+重点工程+福建国资",
+    "board_type": "换手板",
+    "seal_rate": 0.8571428571428571,
+    "high_days_ths": "4天2板"
    },
    {
     "code": "603348",
@@ -4941,7 +5017,11 @@
     "industry": "汽车零部",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 62.11
+    "seal_ratio": 62.11,
+    "reason": "一体化压铸+特斯拉概念+机器人概念+飞行汽车",
+    "board_type": "换手板",
+    "seal_rate": 1.0,
+    "high_days_ths": "首板"
    },
    {
     "code": "000099",
@@ -4961,7 +5041,11 @@
     "industry": "航空机场",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 10.74
+    "seal_ratio": 10.74,
+    "reason": "低空经济+无人机物流+海上油气",
+    "board_type": "换手板",
+    "seal_rate": 1.0,
+    "high_days_ths": "首板"
    },
    {
     "code": "600699",
@@ -4981,7 +5065,11 @@
     "industry": "汽车零部",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 5.08
+    "seal_ratio": 5.08,
+    "reason": "低空经济+特斯拉机器人+智能驾驶",
+    "board_type": "换手板",
+    "seal_rate": 0.4,
+    "high_days_ths": "首板"
    },
    {
     "code": "603278",
@@ -5001,7 +5089,11 @@
     "industry": "通用设备",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 42.31
+    "seal_ratio": 42.31,
+    "reason": "人形机器人+胎圈钢丝+全球销售",
+    "board_type": "换手板",
+    "seal_rate": 0.782608695652174,
+    "high_days_ths": "首板"
    },
    {
     "code": "603955",
@@ -5021,7 +5113,11 @@
     "industry": "基础建设",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 95.35
+    "seal_ratio": 95.35,
+    "reason": "宠物消费+生态建设+文旅运营",
+    "board_type": "换手板",
+    "seal_rate": 0.75,
+    "high_days_ths": "首板"
    },
    {
     "code": "603173",
@@ -5041,7 +5137,11 @@
     "industry": "专用设备",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 71.0
+    "seal_ratio": 71.0,
+    "reason": "深冷装备+空气分离设备+海外业务",
+    "board_type": "换手板",
+    "seal_rate": 0.5,
+    "high_days_ths": "首板"
    },
    {
     "code": "600843",
@@ -5061,7 +5161,11 @@
     "industry": "专用设备",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 13.33
+    "seal_ratio": 13.33,
+    "reason": "低空经济+轻型飞机+机器人缝制+工业缝纫机",
+    "board_type": "换手板",
+    "seal_rate": 0.75,
+    "high_days_ths": "首板"
    },
    {
     "code": "002724",
@@ -5081,7 +5185,11 @@
     "industry": "照明设备",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 16.92
+    "seal_ratio": 16.92,
+    "reason": "AI照明+工业照明+应急救援+“羊”字辈",
+    "board_type": "换手板",
+    "seal_rate": 0.6666666666666666,
+    "high_days_ths": "首板"
    },
    {
     "code": "002614",
@@ -5101,7 +5209,11 @@
     "industry": "其他家电",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 14.31
+    "seal_ratio": 14.31,
+    "reason": "按摩椅+智能按摩+机器人",
+    "board_type": "换手板",
+    "seal_rate": 1.0,
+    "high_days_ths": "首板"
    },
    {
     "code": "002869",
@@ -5121,7 +5233,11 @@
     "industry": "计算机设",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 28.36
+    "seal_ratio": 28.36,
+    "reason": "车路云+低空智联+智慧交通",
+    "board_type": "换手板",
+    "seal_rate": 0.6666666666666666,
+    "high_days_ths": "首板"
    },
    {
     "code": "002510",
@@ -5141,7 +5257,11 @@
     "industry": "汽车零部",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 14.33
+    "seal_ratio": 14.33,
+    "reason": "低空经济+航空零部件+汽车模具",
+    "board_type": "换手板",
+    "seal_rate": 0.6,
+    "high_days_ths": "首板"
    },
    {
     "code": "603013",
@@ -5161,7 +5281,11 @@
     "industry": "汽车零部",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 51.77
+    "seal_ratio": 51.77,
+    "reason": "汽车零部件+机器人+储氢系统",
+    "board_type": "换手板",
+    "seal_rate": 1.0,
+    "high_days_ths": "首板"
    },
    {
     "code": "300045",
@@ -5181,7 +5305,11 @@
     "industry": "军工电子",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 6.48
+    "seal_ratio": 6.48,
+    "reason": "卫星通信芯片+低空经济+卫星应用",
+    "board_type": "换手板",
+    "seal_rate": 1.0,
+    "high_days_ths": "首板"
    },
    {
     "code": "601999",
@@ -5201,7 +5329,11 @@
     "industry": "出版",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 28.64
+    "seal_ratio": 28.64,
+    "reason": "出版发行+AI应用+数智基金",
+    "board_type": "换手板",
+    "seal_rate": 0.4444444444444444,
+    "high_days_ths": "首板"
    },
    {
     "code": "000701",
@@ -5221,7 +5353,11 @@
     "industry": "贸易Ⅱ",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 24.03
+    "seal_ratio": 24.03,
+    "reason": "大宗商品贸易+算力布局+厦门国资",
+    "board_type": "换手板",
+    "seal_rate": 0.5,
+    "high_days_ths": "首板"
    },
    {
     "code": "600178",
@@ -5241,7 +5377,11 @@
     "industry": "汽车零部",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 20.52
+    "seal_ratio": 20.52,
+    "reason": "飞行汽车+增程动力+定点协议+兵装重组",
+    "board_type": "换手板",
+    "seal_rate": 1.0,
+    "high_days_ths": "首板"
    },
    {
     "code": "002917",
@@ -5261,7 +5401,11 @@
     "industry": "化学制品",
     "stat": 4,
     "stat_boards": 3,
-    "seal_ratio": 15.18
+    "seal_ratio": 15.18,
+    "reason": "军工并购+民爆装备+工业机器人",
+    "board_type": "换手板",
+    "seal_rate": 1.0,
+    "high_days_ths": "4天3板"
    },
    {
     "code": "002949",
@@ -5281,7 +5425,11 @@
     "industry": "工程咨询",
     "stat": 4,
     "stat_boards": 2,
-    "seal_ratio": 30.33
+    "seal_ratio": 30.33,
+    "reason": "微短剧+低空规划+建筑设计+AI设计",
+    "board_type": "换手板",
+    "seal_rate": 1.0,
+    "high_days_ths": "4天2板"
    },
    {
     "code": "300581",
@@ -5301,7 +5449,11 @@
     "industry": "航空装备",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 7.1
+    "seal_ratio": 7.1,
+    "reason": "航空惯导+发动机电子+军用无人机",
+    "board_type": "换手板",
+    "seal_rate": 1.0,
+    "high_days_ths": "首板"
    },
    {
     "code": "600148",
@@ -5321,7 +5473,11 @@
     "industry": "汽车零部",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 49.24
+    "seal_ratio": 49.24,
+    "reason": "军工概念+AMT系统+新能源汽车+国企改革",
+    "board_type": "换手板",
+    "seal_rate": null,
+    "high_days_ths": "首板"
    },
    {
     "code": "000887",
@@ -5341,7 +5497,11 @@
     "industry": "汽车零部",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 2.83
+    "seal_ratio": 2.83,
+    "reason": "飞行汽车+人形机器人+数据中心液冷+汽车零部件",
+    "board_type": "换手板",
+    "seal_rate": 0.6666666666666666,
+    "high_days_ths": "首板"
    },
    {
     "code": "600860",
@@ -5361,7 +5521,11 @@
     "industry": "通用设备",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 19.44
+    "seal_ratio": 19.44,
+    "reason": "气体储运+氢能装备+机器人集成",
+    "board_type": "换手板",
+    "seal_rate": 0.3333333333333333,
+    "high_days_ths": "首板"
    },
    {
     "code": "603668",
@@ -5381,7 +5545,11 @@
     "industry": "饲料",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 7.49
+    "seal_ratio": 7.49,
+    "reason": "鳗鱼全产业链+水产饲料+债务展期",
+    "board_type": "换手板",
+    "seal_rate": 0.5714285714285714,
+    "high_days_ths": "首板"
    },
    {
     "code": "603305",
@@ -5401,7 +5569,11 @@
     "industry": "汽车零部",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 7.9
+    "seal_ratio": 7.9,
+    "reason": "汽车轻量化+特斯拉概念+人形机器人+商业航天",
+    "board_type": "换手板",
+    "seal_rate": 0.8,
+    "high_days_ths": "首板"
    },
    {
     "code": "002933",
@@ -5421,7 +5593,11 @@
     "industry": "航空装备",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 38.72
+    "seal_ratio": 38.72,
+    "reason": "航空装备+机器人",
+    "board_type": "换手板",
+    "seal_rate": 1.0,
+    "high_days_ths": "首板"
    },
    {
     "code": "002683",
@@ -5441,7 +5617,11 @@
     "industry": "化学制品",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 6.56
+    "seal_ratio": 6.56,
+    "reason": "防务装备+卫星星座+矿服民爆",
+    "board_type": "换手板",
+    "seal_rate": 0.0,
+    "high_days_ths": "首板"
    },
    {
     "code": "002535",
@@ -5461,7 +5641,11 @@
     "industry": "专用设备",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 60.62
+    "seal_ratio": 60.62,
+    "reason": "军工配套+煤矿机械",
+    "board_type": "换手板",
+    "seal_rate": 0.0,
+    "high_days_ths": "首板"
    },
    {
     "code": "600501",
@@ -5481,7 +5665,11 @@
     "industry": "专用设备",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 7.25
+    "seal_ratio": 7.25,
+    "reason": "特种装备+商业航天+可控核聚变",
+    "board_type": "换手板",
+    "seal_rate": 0.2857142857142857,
+    "high_days_ths": "首板"
    },
    {
     "code": "600319",
@@ -5501,7 +5689,11 @@
     "industry": "化学原料",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 15.63
+    "seal_ratio": 15.63,
+    "reason": "PVDC新材料+氯碱化工+CPE",
+    "board_type": "换手板",
+    "seal_rate": 0.5,
+    "high_days_ths": "首板"
    },
    {
     "code": "603015",
@@ -5521,7 +5713,11 @@
     "industry": "自动化设",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 17.78
+    "seal_ratio": 17.78,
+    "reason": "台湾资产出售+核聚变电源+工业自动化",
+    "board_type": "换手板",
+    "seal_rate": 0.8333333333333334,
+    "high_days_ths": "首板"
    },
    {
     "code": "001358",
@@ -5541,7 +5737,11 @@
     "industry": "化学制品",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 44.3
+    "seal_ratio": 44.3,
+    "reason": "光刻胶原料+电子化学品+有机胺",
+    "board_type": "换手板",
+    "seal_rate": 1.0,
+    "high_days_ths": "首板"
    },
    {
     "code": "603168",
@@ -5561,7 +5761,11 @@
     "industry": "化学制药",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 10.76
+    "seal_ratio": 10.76,
+    "reason": "眼科用药+新品获批+医疗服务",
+    "board_type": "换手板",
+    "seal_rate": 1.0,
+    "high_days_ths": "首板"
    },
    {
     "code": "920690",
@@ -5581,7 +5785,8 @@
     "industry": "汽车零部",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 9.05
+    "seal_ratio": 9.05,
+    "reason": null
    },
    {
     "code": "001319",
@@ -5601,7 +5806,11 @@
     "industry": "汽车零部",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 16.22
+    "seal_ratio": 16.22,
+    "reason": "工业机器人+飞行汽车+汽车零部件+智能装备",
+    "board_type": "换手板",
+    "seal_rate": 0.6666666666666666,
+    "high_days_ths": "首板"
    },
    {
     "code": "300681",
@@ -5621,7 +5830,11 @@
     "industry": "汽车零部",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 2.31
+    "seal_ratio": 2.31,
+    "reason": "低空经济+新能源汽车电驱+业绩增长",
+    "board_type": "换手板",
+    "seal_rate": null,
+    "high_days_ths": "首板"
    },
    {
     "code": "605178",
@@ -5641,7 +5854,11 @@
     "industry": "专业工程",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 3.32
+    "seal_ratio": 3.32,
+    "reason": "半导体存储+重组审核中止+智慧城市",
+    "board_type": "换手板",
+    "seal_rate": 0.5,
+    "high_days_ths": "首板"
    },
    {
     "code": "002767",
@@ -5661,7 +5878,11 @@
     "industry": "通用设备",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 6.34
+    "seal_ratio": 6.34,
+    "reason": "智慧燃气+机器人+MEMS传感器",
+    "board_type": "换手板",
+    "seal_rate": 1.0,
+    "high_days_ths": "首板"
    },
    {
     "code": "603239",
@@ -5681,7 +5902,11 @@
     "industry": "汽车零部",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 5.21
+    "seal_ratio": 5.21,
+    "reason": "机器人+汽车密封条+无边框密封条",
+    "board_type": "换手板",
+    "seal_rate": 0.5,
+    "high_days_ths": "首板"
    },
    {
     "code": "002076",
@@ -5701,7 +5926,11 @@
     "industry": "照明设备",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 2.55
+    "seal_ratio": 2.55,
+    "reason": "LED封装+量子科技+光伏组件",
+    "board_type": "换手板",
+    "seal_rate": 0.6111111111111112,
+    "high_days_ths": "首板"
    },
    {
     "code": "688592",
@@ -5721,7 +5950,11 @@
     "industry": "通信设备",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 4.26
+    "seal_ratio": 4.26,
+    "reason": "商业航天+北斗导航+无人机",
+    "board_type": "换手板",
+    "seal_rate": null,
+    "high_days_ths": "首板"
    },
    {
     "code": "920006",
@@ -5741,7 +5974,8 @@
     "industry": "航空装备",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 1.43
+    "seal_ratio": 1.43,
+    "reason": null
    },
    {
     "code": "301586",
@@ -5761,7 +5995,11 @@
     "industry": "航空装备",
     "stat": 1,
     "stat_boards": 1,
-    "seal_ratio": 1.96
+    "seal_ratio": 1.96,
+    "reason": "低空经济+军工复材",
+    "board_type": "换手板",
+    "seal_rate": null,
+    "high_days_ths": "首板"
    }
   ]
  },
@@ -6385,10 +6623,729 @@
    "limit_down": 15
   }
  },
- "industry_top": [],
- "industry_bottom": [],
- "concept_top": [],
- "concept_bottom": [],
+ "industry_top": [
+  {
+   "code": "BK1231",
+   "name": "航空装备Ⅱ",
+   "change_pct": 5.98,
+   "main_net": 1754703484.0,
+   "main_net_pct": 7.969719292435,
+   "super_net": 1071749689.0,
+   "large_net": 682953795.0,
+   "medium_net": -609148141.0,
+   "small_net": -978319853.0,
+   "lead_name": "航发科技",
+   "lead_code": null
+  },
+  {
+   "code": "BK1229",
+   "name": "地面兵装Ⅱ",
+   "change_pct": 5.97,
+   "main_net": 771857973.0,
+   "main_net_pct": 11.148086966656,
+   "super_net": 626710052.0,
+   "large_net": 145147921.0,
+   "medium_net": -211097709.0,
+   "small_net": -560760244.0,
+   "lead_name": "长城军工",
+   "lead_code": null
+  },
+  {
+   "code": "BK1230",
+   "name": "航海装备Ⅱ",
+   "change_pct": 4.72,
+   "main_net": -94279778.0,
+   "main_net_pct": -1.243483764829,
+   "super_net": 140426792.0,
+   "large_net": -234706570.0,
+   "medium_net": 60208376.0,
+   "small_net": 34071419.0,
+   "lead_name": "中科海讯",
+   "lead_code": null
+  },
+  {
+   "code": "BK1232",
+   "name": "航天装备Ⅱ",
+   "change_pct": 4.58,
+   "main_net": 79866429.0,
+   "main_net_pct": 1.93797335968,
+   "super_net": 38408080.0,
+   "large_net": 41458349.0,
+   "medium_net": -116901577.0,
+   "small_net": 37035150.0,
+   "lead_name": "航天电子",
+   "lead_code": null
+  },
+  {
+   "code": "BK1243",
+   "name": "其他家电Ⅱ",
+   "change_pct": 3.62,
+   "main_net": 84374358.0,
+   "main_net_pct": 17.017919273111,
+   "super_net": 74338717.0,
+   "large_net": 10035641.0,
+   "medium_net": -48054187.0,
+   "small_net": -36320171.0,
+   "lead_name": "奥佳华",
+   "lead_code": null
+  },
+  {
+   "code": "BK1233",
+   "name": "军工电子Ⅱ",
+   "change_pct": 2.87,
+   "main_net": 421503989.0,
+   "main_net_pct": 2.393068634031,
+   "super_net": 321256843.0,
+   "large_net": 100247146.0,
+   "medium_net": -195683478.0,
+   "small_net": -220933996.0,
+   "lead_name": "华力创通",
+   "lead_code": null
+  },
+  {
+   "code": "BK0424",
+   "name": "水泥",
+   "change_pct": 2.81,
+   "main_net": 279007890.0,
+   "main_net_pct": 6.214578931407,
+   "super_net": 266778447.0,
+   "large_net": 12229443.0,
+   "medium_net": -140037381.0,
+   "small_net": -138970522.0,
+   "lead_name": "福建水泥",
+   "lead_code": null
+  },
+  {
+   "code": "BK0481",
+   "name": "汽车零部件",
+   "change_pct": 2.37,
+   "main_net": 1990370811.0,
+   "main_net_pct": 4.980544610898,
+   "super_net": 1763586999.0,
+   "large_net": 226783812.0,
+   "medium_net": -1234739152.0,
+   "small_net": -647782695.0,
+   "lead_name": "均胜电子",
+   "lead_code": null
+  },
+  {
+   "code": "BK1255",
+   "name": "林业Ⅱ",
+   "change_pct": 2.26,
+   "main_net": 114808085.0,
+   "main_net_pct": 5.264730376599,
+   "super_net": 35313202.0,
+   "large_net": 79494883.0,
+   "medium_net": -20985440.0,
+   "small_net": -93822632.0,
+   "lead_name": "平潭发展",
+   "lead_code": null
+  },
+  {
+   "code": "BK0726",
+   "name": "工程咨询服务Ⅱ",
+   "change_pct": 2.18,
+   "main_net": 241606843.0,
+   "main_net_pct": 4.324731282153,
+   "super_net": 217771793.0,
+   "large_net": 23835050.0,
+   "medium_net": -176524828.0,
+   "small_net": -54639446.0,
+   "lead_name": "华建集团",
+   "lead_code": null
+  },
+  {
+   "code": "BK0471",
+   "name": "化学纤维",
+   "change_pct": 2.15,
+   "main_net": 272915927.0,
+   "main_net_pct": 7.711464869542,
+   "super_net": 219782573.0,
+   "large_net": 53133354.0,
+   "medium_net": -114750978.0,
+   "small_net": -118646223.0,
+   "lead_name": "吉林化纤",
+   "lead_code": null
+  },
+  {
+   "code": "BK0732",
+   "name": "贵金属",
+   "change_pct": 2.05,
+   "main_net": 558654407.0,
+   "main_net_pct": 4.079554727004,
+   "super_net": -4436428.0,
+   "large_net": 563090835.0,
+   "medium_net": -23220955.0,
+   "small_net": -535433430.0,
+   "lead_name": "山东黄金",
+   "lead_code": null
+  },
+  {
+   "code": "BK1045",
+   "name": "房地产服务",
+   "change_pct": 1.98,
+   "main_net": 201898615.0,
+   "main_net_pct": 5.859166788775,
+   "super_net": 133059598.0,
+   "large_net": 68839017.0,
+   "medium_net": -29558514.0,
+   "small_net": -172340077.0,
+   "lead_name": "我爱我家",
+   "lead_code": null
+  },
+  {
+   "code": "BK1262",
+   "name": "乘用车",
+   "change_pct": 1.98,
+   "main_net": 188963793.0,
+   "main_net_pct": 3.7586430665,
+   "super_net": 243814142.0,
+   "large_net": -54850349.0,
+   "medium_net": -93422606.0,
+   "small_net": -95541183.0,
+   "lead_name": "比亚迪",
+   "lead_code": null
+  },
+  {
+   "code": "BK1277",
+   "name": "白酒Ⅱ",
+   "change_pct": 1.9,
+   "main_net": 478114109.0,
+   "main_net_pct": 3.618576035965,
+   "super_net": -44801745.0,
+   "large_net": 522915854.0,
+   "medium_net": -698919088.0,
+   "small_net": 220804978.0,
+   "lead_name": "贵州茅台",
+   "lead_code": null
+  }
+ ],
+ "industry_bottom": [
+  {
+   "code": "BK1268",
+   "name": "互联网电商",
+   "change_pct": -1.23,
+   "main_net": -34908682.0,
+   "main_net_pct": -0.821307776783,
+   "super_net": 4679740.0,
+   "large_net": -39588422.0,
+   "medium_net": 52662770.0,
+   "small_net": -34472269.0,
+   "lead_name": "跨境通",
+   "lead_code": null
+  },
+  {
+   "code": "BK0473",
+   "name": "证券Ⅱ",
+   "change_pct": -1.23,
+   "main_net": -1475806155.0,
+   "main_net_pct": -5.930138322064,
+   "super_net": -981489218.0,
+   "large_net": -494316937.0,
+   "medium_net": 806382357.0,
+   "small_net": 669423818.0,
+   "lead_name": "湘财股份",
+   "lead_code": null
+  },
+  {
+   "code": "BK1282",
+   "name": "饮料乳品",
+   "change_pct": -1.24,
+   "main_net": -185838448.0,
+   "main_net_pct": -2.991791775628,
+   "super_net": -21760523.0,
+   "large_net": -164077925.0,
+   "medium_net": 63568336.0,
+   "small_net": 102804527.0,
+   "lead_name": "皇氏集团",
+   "lead_code": null
+  },
+  {
+   "code": "BK1266",
+   "name": "文娱用品",
+   "change_pct": -1.41,
+   "main_net": -166254941.0,
+   "main_net_pct": -5.227883964234,
+   "super_net": -68473590.0,
+   "large_net": -97781351.0,
+   "medium_net": 38368914.0,
+   "small_net": 127886031.0,
+   "lead_name": "通达创智",
+   "lead_code": null
+  },
+  {
+   "code": "BK1033",
+   "name": "电池",
+   "change_pct": -1.58,
+   "main_net": -1691875430.0,
+   "main_net_pct": -3.449573150272,
+   "super_net": -983110048.0,
+   "large_net": -708765382.0,
+   "medium_net": 156345278.0,
+   "small_net": 1412768867.0,
+   "lead_name": "利元亨",
+   "lead_code": null
+  },
+  {
+   "code": "BK1220",
+   "name": "广告营销",
+   "change_pct": -1.89,
+   "main_net": -764438481.0,
+   "main_net_pct": -5.516750010303,
+   "super_net": -294656864.0,
+   "large_net": -469781617.0,
+   "medium_net": -216909320.0,
+   "small_net": 981347805.0,
+   "lead_name": "华媒控股",
+   "lead_code": null
+  },
+  {
+   "code": "BK1221",
+   "name": "数字媒体",
+   "change_pct": -2.34,
+   "main_net": -760460006.0,
+   "main_net_pct": -4.920758791087,
+   "super_net": -355912517.0,
+   "large_net": -404547489.0,
+   "medium_net": -13948810.0,
+   "small_net": 774408824.0,
+   "lead_name": "凡拓数创",
+   "lead_code": null
+  },
+  {
+   "code": "BK1222",
+   "name": "影视院线",
+   "change_pct": -2.38,
+   "main_net": -1035237712.0,
+   "main_net_pct": -8.684600224536,
+   "super_net": -556316011.0,
+   "large_net": -478921701.0,
+   "medium_net": 126480689.0,
+   "small_net": 908757066.0,
+   "lead_name": "横店影视",
+   "lead_code": null
+  },
+  {
+   "code": "BK0727",
+   "name": "医疗服务",
+   "change_pct": -2.42,
+   "main_net": -999645214.0,
+   "main_net_pct": -2.555932640077,
+   "super_net": -727057415.0,
+   "large_net": -272587799.0,
+   "medium_net": 785999220.0,
+   "small_net": 213927303.0,
+   "lead_name": "泓博医药",
+   "lead_code": null
+  },
+  {
+   "code": "BK1219",
+   "name": "电视广播Ⅱ",
+   "change_pct": -2.55,
+   "main_net": -248677937.0,
+   "main_net_pct": -6.498019870025,
+   "super_net": -85540415.0,
+   "large_net": -163137522.0,
+   "medium_net": 80563386.0,
+   "small_net": 123751228.0,
+   "lead_name": "广电网络",
+   "lead_code": null
+  },
+  {
+   "code": "BK1046",
+   "name": "游戏Ⅱ",
+   "change_pct": -2.7,
+   "main_net": -744724902.0,
+   "main_net_pct": -7.07145556249,
+   "super_net": -454576645.0,
+   "large_net": -290148257.0,
+   "medium_net": 118270993.0,
+   "small_net": 626453919.0,
+   "lead_name": "名臣健康",
+   "lead_code": null
+  },
+  {
+   "code": "BK0459",
+   "name": "元件",
+   "change_pct": -3.52,
+   "main_net": -1155989140.0,
+   "main_net_pct": -1.270666434266,
+   "super_net": -1081771957.0,
+   "large_net": -74217183.0,
+   "medium_net": 645329603.0,
+   "small_net": 422520856.0,
+   "lead_name": "崇达技术",
+   "lead_code": null
+  }
+ ],
+ "concept_top": [
+  {
+   "code": "BK0480",
+   "name": "航天航空",
+   "change_pct": 4.51,
+   "main_net": 1694501812.0,
+   "main_net_pct": 6.49753955606,
+   "super_net": 1058897994.0,
+   "large_net": 635603818.0,
+   "medium_net": -499449689.0,
+   "small_net": -1038674674.0,
+   "lead_name": "航发科技",
+   "lead_code": null
+  },
+  {
+   "code": "BK1157",
+   "name": "飞行汽车(eVTOL)",
+   "change_pct": 4.17,
+   "main_net": 2039933347.0,
+   "main_net_pct": 8.753674248581,
+   "super_net": 1701175041.0,
+   "large_net": 338758306.0,
+   "medium_net": -890559833.0,
+   "small_net": -984220397.0,
+   "lead_name": "万丰奥威",
+   "lead_code": null
+  },
+  {
+   "code": "BK1093",
+   "name": "汽车一体化压铸",
+   "change_pct": 3.75,
+   "main_net": 695807337.0,
+   "main_net_pct": 11.71856192956,
+   "super_net": 751314726.0,
+   "large_net": -55507389.0,
+   "medium_net": -395259706.0,
+   "small_net": -300547649.0,
+   "lead_name": "宗申动力",
+   "lead_code": null
+  },
+  {
+   "code": "BK1171",
+   "name": "碳纤维",
+   "change_pct": 3.51,
+   "main_net": 974447898.0,
+   "main_net_pct": 6.71132492934,
+   "super_net": 908005007.0,
+   "large_net": 66442891.0,
+   "medium_net": -501374186.0,
+   "small_net": -411686160.0,
+   "lead_name": "万丰奥威",
+   "lead_code": null
+  },
+  {
+   "code": "BK0625",
+   "name": "通用航空",
+   "change_pct": 3.46,
+   "main_net": 1370023659.0,
+   "main_net_pct": 10.749986530641,
+   "super_net": 1180035303.0,
+   "large_net": 189988356.0,
+   "medium_net": -632184943.0,
+   "small_net": -737091868.0,
+   "lead_name": "宗申动力",
+   "lead_code": null
+  },
+  {
+   "code": "BK0994",
+   "name": "空间站概念",
+   "change_pct": 3.15,
+   "main_net": 297503848.0,
+   "main_net_pct": 3.750267546463,
+   "super_net": 186269609.0,
+   "large_net": 111234239.0,
+   "medium_net": -251929426.0,
+   "small_net": -45574430.0,
+   "lead_name": "华力创通",
+   "lead_code": null
+  },
+  {
+   "code": "BK0808",
+   "name": "军民融合",
+   "change_pct": 3.14,
+   "main_net": 2459348731.0,
+   "main_net_pct": 3.843364963499,
+   "super_net": 2108891878.0,
+   "large_net": 350456853.0,
+   "medium_net": -1123995153.0,
+   "small_net": -1150548395.0,
+   "lead_name": "长城军工",
+   "lead_code": null
+  },
+  {
+   "code": "BK0715",
+   "name": "航母概念",
+   "change_pct": 2.93,
+   "main_net": 701795206.0,
+   "main_net_pct": 3.659175360513,
+   "super_net": 644547337.0,
+   "large_net": 57247869.0,
+   "medium_net": -273080195.0,
+   "small_net": -428714963.0,
+   "lead_name": "航发科技",
+   "lead_code": null
+  },
+  {
+   "code": "BK0629",
+   "name": "卫星导航",
+   "change_pct": 2.9,
+   "main_net": 689596578.0,
+   "main_net_pct": 3.034764262529,
+   "super_net": 455810771.0,
+   "large_net": 233785807.0,
+   "medium_net": -429262710.0,
+   "small_net": -246959525.0,
+   "lead_name": "华力创通",
+   "lead_code": null
+  },
+  {
+   "code": "BK1099",
+   "name": "轮毂电机",
+   "change_pct": 2.8,
+   "main_net": -43991939.0,
+   "main_net_pct": -5.883922093175,
+   "super_net": -37078455.0,
+   "large_net": -6913484.0,
+   "medium_net": -16145133.0,
+   "small_net": 60137075.0,
+   "lead_name": "泉峰汽车",
+   "lead_code": null
+  },
+  {
+   "code": "BK0984",
+   "name": "华为汽车",
+   "change_pct": 2.72,
+   "main_net": 2136012021.0,
+   "main_net_pct": 7.708703661962,
+   "super_net": 2193777211.0,
+   "large_net": -57765190.0,
+   "medium_net": -1175113432.0,
+   "small_net": -825027065.0,
+   "lead_name": "江淮汽车",
+   "lead_code": null
+  },
+  {
+   "code": "BK0814",
+   "name": "大飞机",
+   "change_pct": 2.59,
+   "main_net": 1509356354.0,
+   "main_net_pct": 4.529232214098,
+   "super_net": 912950180.0,
+   "large_net": 596406174.0,
+   "medium_net": -779788112.0,
+   "small_net": -720319866.0,
+   "lead_name": "航发科技",
+   "lead_code": null
+  },
+  {
+   "code": "BK0729",
+   "name": "船舶制造",
+   "change_pct": 2.58,
+   "main_net": -212503062.0,
+   "main_net_pct": -1.956720958699,
+   "super_net": -2958161.0,
+   "large_net": -209544901.0,
+   "medium_net": 108885101.0,
+   "small_net": 103617968.0,
+   "lead_name": "江龙船艇",
+   "lead_code": null
+  },
+  {
+   "code": "BK0887",
+   "name": "鸡肉概念",
+   "change_pct": 2.56,
+   "main_net": 1569385.0,
+   "main_net_pct": 0.047314154296,
+   "super_net": 77178989.0,
+   "large_net": -75609604.0,
+   "medium_net": -105357382.0,
+   "small_net": 103787994.0,
+   "lead_name": "天马科技",
+   "lead_code": null
+  },
+  {
+   "code": "BK0822",
+   "name": "租售同权",
+   "change_pct": 2.53,
+   "main_net": 646826003.0,
+   "main_net_pct": 6.838866785017,
+   "super_net": 490795731.0,
+   "large_net": 156030272.0,
+   "medium_net": -148805372.0,
+   "small_net": -498020589.0,
+   "lead_name": "我爱我家",
+   "lead_code": null
+  },
+  {
+   "code": "BK1066",
+   "name": "民爆概念",
+   "change_pct": 2.52,
+   "main_net": 134594206.0,
+   "main_net_pct": 2.770851051544,
+   "super_net": 220712701.0,
+   "large_net": -86118495.0,
+   "medium_net": -173039681.0,
+   "small_net": 38445486.0,
+   "lead_name": "金奥博",
+   "lead_code": null
+  },
+  {
+   "code": "BK0490",
+   "name": "军工",
+   "change_pct": 2.5,
+   "main_net": 3723490583.0,
+   "main_net_pct": 2.821816402447,
+   "super_net": 3327515117.0,
+   "large_net": 395975466.0,
+   "medium_net": -2239555870.0,
+   "small_net": -1201785150.0,
+   "lead_name": "长城军工",
+   "lead_code": null
+  },
+  {
+   "code": "BK1166",
+   "name": "低空经济",
+   "change_pct": 2.45,
+   "main_net": 3308658053.0,
+   "main_net_pct": 3.986084148844,
+   "super_net": 2639161255.0,
+   "large_net": 669496798.0,
+   "medium_net": -1848898544.0,
+   "small_net": -1338139786.0,
+   "lead_name": "宗申动力",
+   "lead_code": null
+  },
+  {
+   "code": "BK1155",
+   "name": "小米汽车",
+   "change_pct": 2.36,
+   "main_net": 1500124048.0,
+   "main_net_pct": 2.969697602057,
+   "super_net": 1335397336.0,
+   "large_net": 164726712.0,
+   "medium_net": -1108279981.0,
+   "small_net": -268100751.0,
+   "lead_name": "均胜电子",
+   "lead_code": null
+  },
+  {
+   "code": "BK0704",
+   "name": "无人机",
+   "change_pct": 2.28,
+   "main_net": 2886731992.0,
+   "main_net_pct": 3.6130152339,
+   "super_net": 2002972348.0,
+   "large_net": 883759644.0,
+   "medium_net": -1185709672.0,
+   "small_net": -1693930173.0,
+   "lead_name": "科翔股份",
+   "lead_code": null
+  }
+ ],
+ "concept_bottom": [
+  {
+   "code": "BK1128",
+   "name": "CPO概念",
+   "change_pct": -1.65,
+   "main_net": -755692222.0,
+   "main_net_pct": -0.511845578006,
+   "super_net": -1205388444.0,
+   "large_net": 449696222.0,
+   "medium_net": -712879523.0,
+   "small_net": 1350116611.0,
+   "lead_name": "中际旭创",
+   "lead_code": null
+  },
+  {
+   "code": "BK1110",
+   "name": "Web3.0",
+   "change_pct": -1.65,
+   "main_net": -1018178550.0,
+   "main_net_pct": -6.133385407461,
+   "super_net": -504855166.0,
+   "large_net": -513323384.0,
+   "medium_net": -17527346.0,
+   "small_net": 1035705891.0,
+   "lead_name": "四方精创",
+   "lead_code": null
+  },
+  {
+   "code": "BK0877",
+   "name": "PCB",
+   "change_pct": -1.7,
+   "main_net": -1695766052.0,
+   "main_net_pct": -1.116679944947,
+   "super_net": -1131060919.0,
+   "large_net": -564705133.0,
+   "medium_net": 88282878.0,
+   "small_net": 1500777877.0,
+   "lead_name": "崇达技术",
+   "lead_code": null
+  },
+  {
+   "code": "BK1654",
+   "name": "文娱消费",
+   "change_pct": -1.72,
+   "main_net": -3032683627.0,
+   "main_net_pct": -6.681886085926,
+   "super_net": -1705058540.0,
+   "large_net": -1327625087.0,
+   "medium_net": 198099660.0,
+   "small_net": 2834584046.0,
+   "lead_name": "探路者",
+   "lead_code": null
+  },
+  {
+   "code": "BK0986",
+   "name": "CAR-T细胞疗法",
+   "change_pct": -1.81,
+   "main_net": -773860084.0,
+   "main_net_pct": -3.710299283697,
+   "super_net": -502114773.0,
+   "large_net": -271745311.0,
+   "medium_net": 432352853.0,
+   "small_net": 331324105.0,
+   "lead_name": "博济医药",
+   "lead_code": null
+  },
+  {
+   "code": "BK1169",
+   "name": "Kimi概念",
+   "change_pct": -2.38,
+   "main_net": -638411894.0,
+   "main_net_pct": -6.424179073633,
+   "super_net": -183192724.0,
+   "large_net": -455219170.0,
+   "medium_net": -50357710.0,
+   "small_net": 688769600.0,
+   "lead_name": "博瑞传播",
+   "lead_code": null
+  },
+  {
+   "code": "BK1151",
+   "name": "短剧互动游戏",
+   "change_pct": -2.48,
+   "main_net": -2365180101.0,
+   "main_net_pct": -6.908239011936,
+   "super_net": -1098989291.0,
+   "large_net": -1266190810.0,
+   "medium_net": 101587744.0,
+   "small_net": 2263592374.0,
+   "lead_name": "南威软件",
+   "lead_code": null
+  },
+  {
+   "code": "BK0899",
+   "name": "CRO",
+   "change_pct": -2.56,
+   "main_net": -946760758.0,
+   "main_net_pct": -2.33096962807,
+   "super_net": -556681732.0,
+   "large_net": -390079026.0,
+   "medium_net": 741937479.0,
+   "small_net": 185290032.0,
+   "lead_name": "泓博医药",
+   "lead_code": null
+  }
+ ],
  "fallbacks": [
   {
    "item": "日K线(东财)",
@@ -8338,14 +9295,1851 @@
    "source": "eastmoney_dc"
   }
  ],
- "missing": [
+ "missing": [],
+ "sector_source": "eastmoney_datacenter",
+ "northbound": {
+  "last_time": "15:00",
+  "hgt": -9.28,
+  "sgt": 379.75,
+  "total": 370.47,
+  "points": 262,
+  "tail": [
+   {
+    "t": "14:55",
+    "hgt": -9.35,
+    "sgt": null
+   },
+   {
+    "t": "14:56",
+    "hgt": -10.07,
+    "sgt": null
+   },
+   {
+    "t": "14:57",
+    "hgt": -10.87,
+    "sgt": null
+   },
+   {
+    "t": "14:58",
+    "hgt": -10.52,
+    "sgt": null
+   },
+   {
+    "t": "14:59",
+    "hgt": -10.03,
+    "sgt": null
+   },
+   {
+    "t": "15:00",
+    "hgt": -9.28,
+    "sgt": null
+   }
+  ]
+ },
+ "suspensions": [
   {
-   "item": "板块(industry)",
-   "reason": "RemoteDisconnected: Remote end closed connection without response"
+   "code": "603838",
+   "name": "*ST四通",
+   "market": "上交所风险警示板",
+   "start": "2026-10-19 09:30",
+   "end": "2026-10-19 15:00",
+   "expire": "停牌一天",
+   "reason": "刊登重要公告",
+   "resume_date": "2026-10-20"
   },
   {
-   "item": "板块(concept)",
-   "reason": "RemoteDisconnected: Remote end closed connection without response"
+   "code": "301314",
+   "name": "科瑞思",
+   "market": "深交所创业板",
+   "start": "2026-10-13 09:30",
+   "end": "2026-10-26 15:00",
+   "expire": "连续停牌",
+   "reason": "刊登重要公告",
+   "resume_date": "2026-10-27"
+  },
+  {
+   "code": "002717",
+   "name": "*ST岭南",
+   "market": "深交所风险警示板",
+   "start": "2026-10-13 09:30",
+   "end": "",
+   "expire": "连续停牌",
+   "reason": "刊登重要公告",
+   "resume_date": ""
+  },
+  {
+   "code": "600825",
+   "name": "新华传媒",
+   "market": "上交所主板",
+   "start": "2026-10-13 09:30",
+   "end": "2026-10-15 15:00",
+   "expire": "连续停牌",
+   "reason": "交易异常波动",
+   "resume_date": "2026-10-16"
+  },
+  {
+   "code": "300773",
+   "name": "拉卡拉",
+   "market": "深交所创业板",
+   "start": "2026-10-08 09:30",
+   "end": "2026-10-16 15:00",
+   "expire": "连续停牌",
+   "reason": "刊登重要公告",
+   "resume_date": "2026-10-19"
+  },
+  {
+   "code": "002388",
+   "name": "新亚制程",
+   "market": "深交所主板",
+   "start": "2026-10-08 09:30",
+   "end": "2026-10-21 15:00",
+   "expire": "连续停牌",
+   "reason": "拟筹划重大资产重组",
+   "resume_date": "2026-10-22"
+  },
+  {
+   "code": "600293",
+   "name": "三峡新材",
+   "market": "上交所主板",
+   "start": "2026-09-29 09:30",
+   "end": "",
+   "expire": "连续停牌",
+   "reason": "拟筹划重大资产重组",
+   "resume_date": ""
+  },
+  {
+   "code": "601198",
+   "name": "东兴证券",
+   "market": "上交所主板",
+   "start": "2026-09-15 09:30",
+   "end": "2026-10-16 15:00",
+   "expire": "连续停牌",
+   "reason": "刊登重要公告",
+   "resume_date": "2026-10-19"
+  },
+  {
+   "code": "601059",
+   "name": "信达证券",
+   "market": "上交所主板",
+   "start": "2026-09-15 09:30",
+   "end": "2026-10-16 15:00",
+   "expire": "连续停牌",
+   "reason": "刊登重要公告",
+   "resume_date": "2026-10-19"
+  },
+  {
+   "code": "688496",
+   "name": "*ST清越",
+   "market": "上交所科创板",
+   "start": "2026-09-11 09:30",
+   "end": "",
+   "expire": "连续停牌",
+   "reason": "刊登重要公告",
+   "resume_date": ""
+  },
+  {
+   "code": "200016",
+   "name": "*ST康佳B",
+   "market": "深交所风险警示板",
+   "start": "2026-09-04 09:30",
+   "end": "",
+   "expire": "连续停牌",
+   "reason": "刊登重要公告",
+   "resume_date": ""
+  },
+  {
+   "code": "000016",
+   "name": "*ST康佳A",
+   "market": "深交所风险警示板",
+   "start": "2026-09-04 09:30",
+   "end": "",
+   "expire": "连续停牌",
+   "reason": "刊登重要公告",
+   "resume_date": ""
+  },
+  {
+   "code": "002731",
+   "name": "*ST萃华",
+   "market": "深交所风险警示板",
+   "start": "2026-09-01 09:30",
+   "end": "2026-10-22 15:00",
+   "expire": "连续停牌",
+   "reason": "未如期刊登定期报告",
+   "resume_date": "2026-10-23"
+  },
+  {
+   "code": "200706",
+   "name": "瓦轴B",
+   "market": "深交所主板",
+   "start": "2026-03-02 09:30",
+   "end": "2026-10-15 15:00",
+   "expire": "连续停牌",
+   "reason": "刊登重要公告",
+   "resume_date": "2026-10-16"
+  }
+ ],
+ "ipo_calendar": [
+  {
+   "code": "001381",
+   "name": "皇冠新材",
+   "apply_date": "2026-10-19",
+   "market": "深交所其他",
+   "price": 16.98,
+   "pe": null,
+   "online_date": "2026-10-19",
+   "listing_date": ""
+  },
+  {
+   "code": "920306",
+   "name": "天元重工",
+   "apply_date": "2026-10-20",
+   "market": "北交所",
+   "price": 4.48,
+   "pe": null,
+   "online_date": "",
+   "listing_date": ""
+  }
+ ],
+ "lockup": [
+  {
+   "code": "603293",
+   "name": "埃泰克",
+   "free_date": "2026-10-16",
+   "shares_10k": 72.1621,
+   "ratio_pct": 0.4029,
+   "market_cap": 2264.446698,
+   "holders": 1.0,
+   "type": "首发机构配售股份"
+  },
+  {
+   "code": "920100",
+   "name": "三协电机",
+   "free_date": "2026-10-16",
+   "shares_10k": 2895.1146,
+   "ratio_pct": 28.0173,
+   "market_cap": 75157.175016,
+   "holders": 19.0,
+   "type": "公开发行原股东限售股份,公开发行战略配售股份"
+  },
+  {
+   "code": "002857",
+   "name": "三晖电气",
+   "free_date": "2026-10-16",
+   "shares_10k": 58.515,
+   "ratio_pct": 0.4373,
+   "market_cap": 941.50635,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "301203",
+   "name": "国泰环保",
+   "free_date": "2026-10-16",
+   "shares_10k": 1086.75,
+   "ratio_pct": 13.5844,
+   "market_cap": 34091.3475,
+   "holders": 3.0,
+   "type": "追加承诺限售股份上市流通"
+  },
+  {
+   "code": "002938",
+   "name": "鹏鼎控股",
+   "free_date": "2026-10-16",
+   "shares_10k": 265.9436,
+   "ratio_pct": 0.1148,
+   "market_cap": 19725.036812,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "002471",
+   "name": "中超控股",
+   "free_date": "2026-10-16",
+   "shares_10k": 1644.8,
+   "ratio_pct": 1.2018,
+   "market_cap": 7927.936,
+   "holders": 7.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "301666",
+   "name": "大普微",
+   "free_date": "2026-10-16",
+   "shares_10k": 838.0966,
+   "ratio_pct": 1.9213,
+   "market_cap": 229437.325216,
+   "holders": 1.0,
+   "type": "首发机构配售股份"
+  },
+  {
+   "code": "001267",
+   "name": "汇绿生态",
+   "free_date": "2026-10-19",
+   "shares_10k": 38.25,
+   "ratio_pct": 0.0487,
+   "market_cap": 1034.6625,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "920268",
+   "name": "百迈科",
+   "free_date": "2026-10-19",
+   "shares_10k": 360.6798,
+   "ratio_pct": 6.6546,
+   "market_cap": 9659.005044,
+   "holders": 9.0,
+   "type": "公开发行原股东限售股份"
+  },
+  {
+   "code": "301387",
+   "name": "光大同创",
+   "free_date": "2026-10-19",
+   "shares_10k": 6399.9208,
+   "ratio_pct": 59.6441,
+   "market_cap": 270268.655384,
+   "holders": 3.0,
+   "type": "追加承诺限售股份上市流通"
+  },
+  {
+   "code": "601026",
+   "name": "道生天合",
+   "free_date": "2026-10-19",
+   "shares_10k": 22932.1304,
+   "ratio_pct": 34.7773,
+   "market_cap": 297200.409984,
+   "holders": 21.0,
+   "type": "首发原股东限售股份,首发战略配售股份"
+  },
+  {
+   "code": "689009",
+   "name": "九号公司",
+   "free_date": "2026-10-19",
+   "shares_10k": 332.5838,
+   "ratio_pct": 0.452,
+   "market_cap": 12415.353254,
+   "holders": 1.0,
+   "type": "股权激励期权行权"
+  },
+  {
+   "code": "688598",
+   "name": "金博股份",
+   "free_date": "2026-10-19",
+   "shares_10k": 199.625,
+   "ratio_pct": 0.9617,
+   "market_cap": 5589.5,
+   "holders": 16.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "301513",
+   "name": "尚水智能",
+   "free_date": "2026-10-19",
+   "shares_10k": 110.1011,
+   "ratio_pct": 1.101,
+   "market_cap": 6181.075754,
+   "holders": 1.0,
+   "type": "首发机构配售股份"
+  },
+  {
+   "code": "688609",
+   "name": "九联科技",
+   "free_date": "2026-10-19",
+   "shares_10k": 2195.2898,
+   "ratio_pct": 4.2059,
+   "market_cap": 17540.365502,
+   "holders": 3.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "301023",
+   "name": "奕帆传动",
+   "free_date": "2026-10-19",
+   "shares_10k": 29.085,
+   "ratio_pct": 0.3117,
+   "market_cap": 790.82115,
+   "holders": 4.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "920926",
+   "name": "鸿智科技",
+   "free_date": "2026-10-19",
+   "shares_10k": 127.512,
+   "ratio_pct": 1.4431,
+   "market_cap": 1175.66064,
+   "holders": 1.0,
+   "type": "其他类型"
+  },
+  {
+   "code": "301123",
+   "name": "奕东电子",
+   "free_date": "2026-10-19",
+   "shares_10k": 62.85,
+   "ratio_pct": 0.2679,
+   "market_cap": 3373.788,
+   "holders": 5.0,
+   "type": "股权激励限售股份,股权激励一般股份"
+  },
+  {
+   "code": "603193",
+   "name": "润本股份",
+   "free_date": "2026-10-19",
+   "shares_10k": 30125.7,
+   "ratio_pct": 74.4592,
+   "market_cap": 608840.397,
+   "holders": 6.0,
+   "type": "首发原股东限售股份,追加承诺限售股份上市流通"
+  },
+  {
+   "code": "688507",
+   "name": "索辰科技",
+   "free_date": "2026-10-19",
+   "shares_10k": 3987.3054,
+   "ratio_pct": 44.7465,
+   "market_cap": 476164.010868,
+   "holders": 5.0,
+   "type": "追加承诺限售股份上市流通"
+  },
+  {
+   "code": "301517",
+   "name": "陕西华达",
+   "free_date": "2026-10-19",
+   "shares_10k": 5308.03,
+   "ratio_pct": 35.0973,
+   "market_cap": 169697.7191,
+   "holders": 1.0,
+   "type": "首发原股东限售股份"
+  },
+  {
+   "code": "000962",
+   "name": "东方钽业",
+   "free_date": "2026-10-19",
+   "shares_10k": 3.9601,
+   "ratio_pct": 0.0075,
+   "market_cap": 175.472031,
+   "holders": 2.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "920069",
+   "name": "普昂医疗",
+   "free_date": "2026-10-19",
+   "shares_10k": 272.9536,
+   "ratio_pct": 5.1579,
+   "market_cap": 8177.689856,
+   "holders": 3.0,
+   "type": "公开发行原股东限售股份"
+  },
+  {
+   "code": "002871",
+   "name": "伟隆股份",
+   "free_date": "2026-10-19",
+   "shares_10k": 116.94,
+   "ratio_pct": 0.4643,
+   "market_cap": 1799.7066,
+   "holders": 9.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "600186",
+   "name": "莲花控股",
+   "free_date": "2026-10-19",
+   "shares_10k": 77.035,
+   "ratio_pct": 0.043,
+   "market_cap": 732.60285,
+   "holders": 2.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "300167",
+   "name": "ST迪威迅",
+   "free_date": "2026-10-19",
+   "shares_10k": 1440.95,
+   "ratio_pct": 3.4611,
+   "market_cap": 4798.3635,
+   "holders": 6.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "605099",
+   "name": "共创草坪",
+   "free_date": "2026-10-19",
+   "shares_10k": 3.18,
+   "ratio_pct": 0.0079,
+   "market_cap": 84.6198,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "920924",
+   "name": "广脉科技",
+   "free_date": "2026-10-19",
+   "shares_10k": 4.1921,
+   "ratio_pct": 0.0391,
+   "market_cap": 55.587246,
+   "holders": 2.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "301429",
+   "name": "森泰股份",
+   "free_date": "2026-10-19",
+   "shares_10k": 6953.2519,
+   "ratio_pct": 58.8162,
+   "market_cap": 114380.993755,
+   "holders": 4.0,
+   "type": "追加承诺限售股份上市流通"
+  },
+  {
+   "code": "688352",
+   "name": "颀中科技",
+   "free_date": "2026-10-20",
+   "shares_10k": 82315.6165,
+   "ratio_pct": 69.1976,
+   "market_cap": 1098913.480275,
+   "holders": 3.0,
+   "type": "追加承诺限售股份上市流通"
+  },
+  {
+   "code": "002653",
+   "name": "海思科",
+   "free_date": "2026-10-20",
+   "shares_10k": 153.0,
+   "ratio_pct": 0.1341,
+   "market_cap": 8687.34,
+   "holders": 2.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "688261",
+   "name": "东微半导",
+   "free_date": "2026-10-20",
+   "shares_10k": 17.7719,
+   "ratio_pct": 0.1449,
+   "market_cap": 1048.008943,
+   "holders": 7.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "603225",
+   "name": "新凤鸣",
+   "free_date": "2026-10-20",
+   "shares_10k": 379.89,
+   "ratio_pct": 0.2265,
+   "market_cap": 6032.6532,
+   "holders": 12.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "000881",
+   "name": "中广核技",
+   "free_date": "2026-10-20",
+   "shares_10k": 1144.2242,
+   "ratio_pct": 1.2103,
+   "market_cap": 7300.150396,
+   "holders": 9.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "300407",
+   "name": "凯发电气",
+   "free_date": "2026-10-20",
+   "shares_10k": 2624.6719,
+   "ratio_pct": 7.5761,
+   "market_cap": 26509.18619,
+   "holders": 6.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "001309",
+   "name": "德明利",
+   "free_date": "2026-10-20",
+   "shares_10k": 44.0706,
+   "ratio_pct": 0.1388,
+   "market_cap": 9078.984306,
+   "holders": 7.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "001314",
+   "name": "亿道信息",
+   "free_date": "2026-10-21",
+   "shares_10k": 61.794,
+   "ratio_pct": 0.4334,
+   "market_cap": 2626.245,
+   "holders": 3.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "920978",
+   "name": "开特股份",
+   "free_date": "2026-10-21",
+   "shares_10k": 71.3,
+   "ratio_pct": 0.396,
+   "market_cap": 1301.225,
+   "holders": 78.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "688146",
+   "name": "中船特气",
+   "free_date": "2026-10-21",
+   "shares_10k": 38444.0923,
+   "ratio_pct": 72.6166,
+   "market_cap": 5955758.779116,
+   "holders": 2.0,
+   "type": "追加承诺限售股份上市流通"
+  },
+  {
+   "code": "920015",
+   "name": "锦华新材",
+   "free_date": "2026-10-21",
+   "shares_10k": 9065.5422,
+   "ratio_pct": 66.8715,
+   "market_cap": 352649.59158,
+   "holders": 11.0,
+   "type": "公开发行原股东限售股份,公开发行战略配售股份"
+  },
+  {
+   "code": "002437",
+   "name": "誉衡药业",
+   "free_date": "2026-10-21",
+   "shares_10k": 180.0,
+   "ratio_pct": 0.0807,
+   "market_cap": 635.4,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "002286",
+   "name": "保龄宝",
+   "free_date": "2026-10-21",
+   "shares_10k": 18.0,
+   "ratio_pct": 0.0474,
+   "market_cap": 149.4,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "001312",
+   "name": "福恩股份",
+   "free_date": "2026-10-21",
+   "shares_10k": 117.3065,
+   "ratio_pct": 0.5027,
+   "market_cap": 1961.36468,
+   "holders": 1.0,
+   "type": "首发机构配售股份"
+  },
+  {
+   "code": "001238",
+   "name": "浙江正特",
+   "free_date": "2026-10-21",
+   "shares_10k": 57.4,
+   "ratio_pct": 0.37,
+   "market_cap": 1438.444,
+   "holders": 4.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "688820",
+   "name": "盛合晶微",
+   "free_date": "2026-10-21",
+   "shares_10k": 1317.5749,
+   "ratio_pct": 0.7073,
+   "market_cap": 119161.473956,
+   "holders": 1.0,
+   "type": "首发机构配售股份"
+  },
+  {
+   "code": "603162",
+   "name": "海通发展",
+   "free_date": "2026-10-22",
+   "shares_10k": 85.692,
+   "ratio_pct": 0.0623,
+   "market_cap": 892.91064,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "688251",
+   "name": "井松智能",
+   "free_date": "2026-10-22",
+   "shares_10k": 69.9175,
+   "ratio_pct": 0.695,
+   "market_cap": 1223.55625,
+   "holders": 5.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "600648",
+   "name": "外高桥",
+   "free_date": "2026-10-22",
+   "shares_10k": 2158.4027,
+   "ratio_pct": 1.5872,
+   "market_cap": 20116.313164,
+   "holders": 2.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "920288",
+   "name": "华大海天",
+   "free_date": "2026-10-22",
+   "shares_10k": 36.49,
+   "ratio_pct": 0.4829,
+   "market_cap": 567.4195,
+   "holders": 1.0,
+   "type": "公开发行原股东限售股份"
+  },
+  {
+   "code": "300657",
+   "name": "弘信电子",
+   "free_date": "2026-10-22",
+   "shares_10k": 200.7364,
+   "ratio_pct": 0.4095,
+   "market_cap": 6106.401288,
+   "holders": 4.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "920230",
+   "name": "欧康医药",
+   "free_date": "2026-10-22",
+   "shares_10k": 13.5,
+   "ratio_pct": 0.1344,
+   "market_cap": 148.5,
+   "holders": 2.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "920229",
+   "name": "世纪数码",
+   "free_date": "2026-10-22",
+   "shares_10k": 192.0,
+   "ratio_pct": 4.3302,
+   "market_cap": 6954.24,
+   "holders": 1.0,
+   "type": "公开发行原股东限售股份"
+  },
+  {
+   "code": "001386",
+   "name": "马可波罗",
+   "free_date": "2026-10-22",
+   "shares_10k": 5979.4473,
+   "ratio_pct": 5.0041,
+   "market_cap": 92083.48842,
+   "holders": 2.0,
+   "type": "首发原股东限售股份,首发战略配售股份"
+  },
+  {
+   "code": "605056",
+   "name": "咸亨国际",
+   "free_date": "2026-10-22",
+   "shares_10k": 240.0,
+   "ratio_pct": 0.5862,
+   "market_cap": 2920.8,
+   "holders": 3.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "603273",
+   "name": "天元智能",
+   "free_date": "2026-10-23",
+   "shares_10k": 15825.5,
+   "ratio_pct": 73.4589,
+   "market_cap": 218075.39,
+   "holders": 4.0,
+   "type": "首发原股东限售股份"
+  },
+  {
+   "code": "920017",
+   "name": "星昊医药",
+   "free_date": "2026-10-23",
+   "shares_10k": 49.812,
+   "ratio_pct": 0.4001,
+   "market_cap": 767.1048,
+   "holders": 88.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "600479",
+   "name": "千金药业",
+   "free_date": "2026-10-23",
+   "shares_10k": 1995.8905,
+   "ratio_pct": 4.055,
+   "market_cap": 22553.56265,
+   "holders": 20.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "600459",
+   "name": "贵研铂业",
+   "free_date": "2026-10-23",
+   "shares_10k": 6347.0993,
+   "ratio_pct": 7.7105,
+   "market_cap": 105171.435401,
+   "holders": 3.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "002796",
+   "name": "世嘉科技",
+   "free_date": "2026-10-23",
+   "shares_10k": 211.572,
+   "ratio_pct": 0.8384,
+   "market_cap": 4531.87224,
+   "holders": 3.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "300739",
+   "name": "明阳电路",
+   "free_date": "2026-10-23",
+   "shares_10k": 84.0,
+   "ratio_pct": 0.2252,
+   "market_cap": 2030.28,
+   "holders": 6.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "603190",
+   "name": "亚通精工",
+   "free_date": "2026-10-23",
+   "shares_10k": 254.24,
+   "ratio_pct": 1.4582,
+   "market_cap": 3905.1264,
+   "holders": 7.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "600228",
+   "name": "返利科技",
+   "free_date": "2026-10-23",
+   "shares_10k": 29.256,
+   "ratio_pct": 0.0702,
+   "market_cap": 283.7832,
+   "holders": 2.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "603055",
+   "name": "台华新材",
+   "free_date": "2026-10-23",
+   "shares_10k": 16.83,
+   "ratio_pct": 0.0189,
+   "market_cap": 158.7069,
+   "holders": 2.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "920201",
+   "name": "百瑞吉",
+   "free_date": "2026-10-26",
+   "shares_10k": 3903.5808,
+   "ratio_pct": 57.2156,
+   "market_cap": 133892.82144,
+   "holders": 34.0,
+   "type": "公开发行原股东限售股份"
+  },
+  {
+   "code": "300323",
+   "name": "华灿光电",
+   "free_date": "2026-10-26",
+   "shares_10k": 214.2,
+   "ratio_pct": 0.132,
+   "market_cap": 1773.576,
+   "holders": 7.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "600186",
+   "name": "莲花控股",
+   "free_date": "2026-10-26",
+   "shares_10k": 177.0,
+   "ratio_pct": 0.0987,
+   "market_cap": 1683.27,
+   "holders": 8.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "002230",
+   "name": "科大讯飞",
+   "free_date": "2026-10-26",
+   "shares_10k": 8346.4922,
+   "ratio_pct": 3.4747,
+   "market_cap": 300473.7192,
+   "holders": 13.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "603667",
+   "name": "五洲新春",
+   "free_date": "2026-10-26",
+   "shares_10k": 1694.9152,
+   "ratio_pct": 4.4236,
+   "market_cap": 69898.302848,
+   "holders": 10.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "603175",
+   "name": "超颖电子",
+   "free_date": "2026-10-26",
+   "shares_10k": 1527.7462,
+   "ratio_pct": 3.4958,
+   "market_cap": 147091.404136,
+   "holders": 9.0,
+   "type": "首发原股东限售股份,首发战略配售股份"
+  },
+  {
+   "code": "002524",
+   "name": "光正眼科",
+   "free_date": "2026-10-26",
+   "shares_10k": 263.1,
+   "ratio_pct": 0.5105,
+   "market_cap": 1039.245,
+   "holders": 8.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "688368",
+   "name": "晶丰明源",
+   "free_date": "2026-10-26",
+   "shares_10k": 2360.6558,
+   "ratio_pct": 11.559,
+   "market_cap": 213686.563016,
+   "holders": 18.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "688808",
+   "name": "联讯仪器",
+   "free_date": "2026-10-26",
+   "shares_10k": 183.1034,
+   "ratio_pct": 1.2051,
+   "market_cap": 219724.08,
+   "holders": 1.0,
+   "type": "首发机构配售股份"
+  },
+  {
+   "code": "301307",
+   "name": "美利信",
+   "free_date": "2026-10-26",
+   "shares_10k": 9813.472,
+   "ratio_pct": 46.5977,
+   "market_cap": 420507.2752,
+   "holders": 2.0,
+   "type": "追加承诺限售股份上市流通"
+  },
+  {
+   "code": "301360",
+   "name": "荣旗科技",
+   "free_date": "2026-10-26",
+   "shares_10k": 3320.2,
+   "ratio_pct": 47.5772,
+   "market_cap": 172716.804,
+   "holders": 3.0,
+   "type": "追加承诺限售股份上市流通"
+  },
+  {
+   "code": "301489",
+   "name": "思泉新材",
+   "free_date": "2026-10-26",
+   "shares_10k": 2969.6102,
+   "ratio_pct": 25.5355,
+   "market_cap": 259870.588602,
+   "holders": 2.0,
+   "type": "首发原股东限售股份"
+  },
+  {
+   "code": "601187",
+   "name": "厦门银行",
+   "free_date": "2026-10-27",
+   "shares_10k": 14.3137,
+   "ratio_pct": 0.0054,
+   "market_cap": 96.044927,
+   "holders": 10.0,
+   "type": "首发原股东限售股份"
+  },
+  {
+   "code": "920176",
+   "name": "维琪科技",
+   "free_date": "2026-10-27",
+   "shares_10k": 1174.5985,
+   "ratio_pct": 19.966,
+   "market_cap": 61302.295715,
+   "holders": 16.0,
+   "type": "公开发行原股东限售股份"
+  },
+  {
+   "code": "600697",
+   "name": "欧亚集团",
+   "free_date": "2026-10-27",
+   "shares_10k": 371.206,
+   "ratio_pct": 2.3333,
+   "market_cap": 4187.20368,
+   "holders": 4.0,
+   "type": "股权分置限售股份"
+  },
+  {
+   "code": "920156",
+   "name": "海昌智能",
+   "free_date": "2026-10-27",
+   "shares_10k": 66.8898,
+   "ratio_pct": 0.6424,
+   "market_cap": 2147.16258,
+   "holders": 3.0,
+   "type": "公开发行战略配售股份"
+  },
+  {
+   "code": "002079",
+   "name": "苏州固锝",
+   "free_date": "2026-10-27",
+   "shares_10k": 9660.1307,
+   "ratio_pct": 10.6332,
+   "market_cap": 75638.823381,
+   "holders": 9.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "300848",
+   "name": "美瑞新材",
+   "free_date": "2026-10-27",
+   "shares_10k": 2416.9303,
+   "ratio_pct": 5.6485,
+   "market_cap": 24410.99603,
+   "holders": 1.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "688062",
+   "name": "迈威生物",
+   "free_date": "2026-10-28",
+   "shares_10k": 16936.0,
+   "ratio_pct": 37.911,
+   "market_cap": 377503.44,
+   "holders": 4.0,
+   "type": "追加承诺限售股份上市流通"
+  },
+  {
+   "code": "688759",
+   "name": "必贝特",
+   "free_date": "2026-10-28",
+   "shares_10k": 16747.8598,
+   "ratio_pct": 37.2144,
+   "market_cap": 304643.569762,
+   "holders": 45.0,
+   "type": "首发原股东限售股份,首发战略配售股份"
+  },
+  {
+   "code": "300895",
+   "name": "铜牛信息",
+   "free_date": "2026-10-28",
+   "shares_10k": 1664.47,
+   "ratio_pct": 11.8215,
+   "market_cap": 80277.3881,
+   "holders": 1.0,
+   "type": "其他类型"
+  },
+  {
+   "code": "688765",
+   "name": "禾元生物",
+   "free_date": "2026-10-28",
+   "shares_10k": 20149.5642,
+   "ratio_pct": 56.3624,
+   "market_cap": 668764.035798,
+   "holders": 127.0,
+   "type": "首发原股东限售股份,首发战略配售股份"
+  },
+  {
+   "code": "300782",
+   "name": "卓胜微",
+   "free_date": "2026-10-28",
+   "shares_10k": 4004.3788,
+   "ratio_pct": 6.9643,
+   "market_cap": 219279.783088,
+   "holders": 18.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "688337",
+   "name": "普源精电",
+   "free_date": "2026-10-28",
+   "shares_10k": 29.9421,
+   "ratio_pct": 0.1369,
+   "market_cap": 1103.366385,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "603477",
+   "name": "巨星农牧",
+   "free_date": "2026-10-28",
+   "shares_10k": 1222.6606,
+   "ratio_pct": 2.3379,
+   "market_cap": 16298.065798,
+   "holders": 5.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "920020",
+   "name": "泰凯英",
+   "free_date": "2026-10-28",
+   "shares_10k": 16564.9099,
+   "ratio_pct": 73.6398,
+   "market_cap": 233896.527788,
+   "holders": 7.0,
+   "type": "公开发行原股东限售股份,公开发行战略配售股份"
+  },
+  {
+   "code": "688783",
+   "name": "西安奕材",
+   "free_date": "2026-10-28",
+   "shares_10k": 283686.0447,
+   "ratio_pct": 70.2576,
+   "market_cap": 6170171.472225,
+   "holders": 70.0,
+   "type": "首发原股东限售股份,首发战略配售股份"
+  },
+  {
+   "code": "920065",
+   "name": "千岸科技",
+   "free_date": "2026-10-29",
+   "shares_10k": 493.0789,
+   "ratio_pct": 5.4635,
+   "market_cap": 14930.429092,
+   "holders": 2.0,
+   "type": "公开发行原股东限售股份"
+  },
+  {
+   "code": "688726",
+   "name": "拉普拉斯",
+   "free_date": "2026-10-29",
+   "shares_10k": 202.663,
+   "ratio_pct": 0.5,
+   "market_cap": 7528.93045,
+   "holders": 1.0,
+   "type": "首发战略配售股份"
+  },
+  {
+   "code": "605319",
+   "name": "无锡振华",
+   "free_date": "2026-10-29",
+   "shares_10k": 26.95,
+   "ratio_pct": 0.077,
+   "market_cap": 557.5955,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "920202",
+   "name": "安达股份",
+   "free_date": "2026-10-29",
+   "shares_10k": 1982.3013,
+   "ratio_pct": 17.6991,
+   "market_cap": 23827.261626,
+   "holders": 27.0,
+   "type": "公开发行原股东限售股份"
+  },
+  {
+   "code": "920088",
+   "name": "科力股份",
+   "free_date": "2026-10-29",
+   "shares_10k": 855.7044,
+   "ratio_pct": 9.716,
+   "market_cap": 31558.378272,
+   "holders": 13.0,
+   "type": "公开发行原股东限售股份"
+  },
+  {
+   "code": "002952",
+   "name": "亚世光电",
+   "free_date": "2026-10-30",
+   "shares_10k": 48.0,
+   "ratio_pct": 0.2921,
+   "market_cap": 859.68,
+   "holders": 2.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "603162",
+   "name": "海通发展",
+   "free_date": "2026-10-30",
+   "shares_10k": 44.6842,
+   "ratio_pct": 0.0325,
+   "market_cap": 465.609364,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "920058",
+   "name": "华洋赛车",
+   "free_date": "2026-10-30",
+   "shares_10k": 3.6465,
+   "ratio_pct": 0.0651,
+   "market_cap": 80.186535,
+   "holders": 3.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "002157",
+   "name": "正邦科技",
+   "free_date": "2026-10-30",
+   "shares_10k": 16.8215,
+   "ratio_pct": 0.0018,
+   "market_cap": 47.941275,
+   "holders": 3.0,
+   "type": "其他类型"
+  },
+  {
+   "code": "920924",
+   "name": "广脉科技",
+   "free_date": "2026-10-30",
+   "shares_10k": 27.5,
+   "ratio_pct": 0.2563,
+   "market_cap": 364.65,
+   "holders": 10.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "001367",
+   "name": "海森药业",
+   "free_date": "2026-10-30",
+   "shares_10k": 110.6152,
+   "ratio_pct": 0.7261,
+   "market_cap": 2210.091696,
+   "holders": 10.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "603617",
+   "name": "君禾股份",
+   "free_date": "2026-10-30",
+   "shares_10k": 74.5,
+   "ratio_pct": 0.1911,
+   "market_cap": 478.29,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "603639",
+   "name": "海利尔",
+   "free_date": "2026-10-30",
+   "shares_10k": 293.097,
+   "ratio_pct": 0.8383,
+   "market_cap": 2977.86552,
+   "holders": 5.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "301599",
+   "name": "理奇智能",
+   "free_date": "2026-10-30",
+   "shares_10k": 356.5464,
+   "ratio_pct": 0.8261,
+   "market_cap": 10707.088392,
+   "holders": 1.0,
+   "type": "首发机构配售股份"
+  },
+  {
+   "code": "002116",
+   "name": "中国海诚",
+   "free_date": "2026-10-30",
+   "shares_10k": 46.7399,
+   "ratio_pct": 0.0836,
+   "market_cap": 329.983694,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "300512",
+   "name": "中亚股份",
+   "free_date": "2026-10-30",
+   "shares_10k": 210.9625,
+   "ratio_pct": 0.5155,
+   "market_cap": 1495.724125,
+   "holders": 4.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "920493",
+   "name": "并行科技",
+   "free_date": "2026-11-02",
+   "shares_10k": 771.4332,
+   "ratio_pct": 12.7337,
+   "market_cap": 68811.84144,
+   "holders": 5.0,
+   "type": "公开发行原股东限售股份"
+  },
+  {
+   "code": "603107",
+   "name": "上海汽配",
+   "free_date": "2026-11-02",
+   "shares_10k": 11916.1002,
+   "ratio_pct": 35.3242,
+   "market_cap": 142516.558392,
+   "holders": 2.0,
+   "type": "首发原股东限售股份"
+  },
+  {
+   "code": "920689",
+   "name": "克莱特",
+   "free_date": "2026-11-02",
+   "shares_10k": 3328.0139,
+   "ratio_pct": 45.3408,
+   "market_cap": 60103.931034,
+   "holders": 1.0,
+   "type": "追加承诺限售股份上市流通"
+  },
+  {
+   "code": "002575",
+   "name": "群兴玩具",
+   "free_date": "2026-11-02",
+   "shares_10k": 719.7,
+   "ratio_pct": 1.1674,
+   "market_cap": 3468.954,
+   "holders": 3.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "301555",
+   "name": "惠柏新材",
+   "free_date": "2026-11-02",
+   "shares_10k": 4388.87,
+   "ratio_pct": 47.5672,
+   "market_cap": 147466.032,
+   "holders": 5.0,
+   "type": "首发原股东限售股份"
+  },
+  {
+   "code": "600367",
+   "name": "红星发展",
+   "free_date": "2026-11-02",
+   "shares_10k": 1915.772,
+   "ratio_pct": 5.6159,
+   "market_cap": 53967.29724,
+   "holders": 1.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "920415",
+   "name": "恒拓开源",
+   "free_date": "2026-11-03",
+   "shares_10k": 2978.8823,
+   "ratio_pct": 21.2003,
+   "market_cap": 26601.418939,
+   "holders": 1.0,
+   "type": "追加承诺限售股份上市流通"
+  },
+  {
+   "code": "920009",
+   "name": "丹娜生物",
+   "free_date": "2026-11-03",
+   "shares_10k": 6746.6,
+   "ratio_pct": 87.0013,
+   "market_cap": 220276.49,
+   "holders": 28.0,
+   "type": "公开发行原股东限售股份,公开发行战略配售股份"
+  },
+  {
+   "code": "001376",
+   "name": "百通能源",
+   "free_date": "2026-11-03",
+   "shares_10k": 24590.9687,
+   "ratio_pct": 50.3294,
+   "market_cap": 275418.84944,
+   "holders": 11.0,
+   "type": "首发原股东限售股份"
+  },
+  {
+   "code": "300535",
+   "name": "达威股份",
+   "free_date": "2026-11-04",
+   "shares_10k": 88.736,
+   "ratio_pct": 0.8292,
+   "market_cap": 1305.30656,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "002202",
+   "name": "金风科技",
+   "free_date": "2026-11-04",
+   "shares_10k": 141.4086,
+   "ratio_pct": 0.0335,
+   "market_cap": 2139.512118,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "002340",
+   "name": "格林美",
+   "free_date": "2026-11-05",
+   "shares_10k": 310.45,
+   "ratio_pct": 0.0608,
+   "market_cap": 1834.7595,
+   "holders": 40.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "603185",
+   "name": "弘元绿能",
+   "free_date": "2026-11-06",
+   "shares_10k": 162.184,
+   "ratio_pct": 0.2374,
+   "market_cap": 2309.50016,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "603334",
+   "name": "丰倍生物",
+   "free_date": "2026-11-06",
+   "shares_10k": 1979.5286,
+   "ratio_pct": 13.7946,
+   "market_cap": 63542.86806,
+   "holders": 7.0,
+   "type": "首发原股东限售股份,首发战略配售股份"
+  },
+  {
+   "code": "603062",
+   "name": "麦加芯彩",
+   "free_date": "2026-11-06",
+   "shares_10k": 324.0,
+   "ratio_pct": 3.0,
+   "market_cap": 11440.44,
+   "holders": 1.0,
+   "type": "首发原股东限售股份"
+  },
+  {
+   "code": "603376",
+   "name": "大明电子",
+   "free_date": "2026-11-06",
+   "shares_10k": 6740.02,
+   "ratio_pct": 16.85,
+   "market_cap": 166006.6926,
+   "holders": 6.0,
+   "type": "首发原股东限售股份,首发战略配售股份"
+  },
+  {
+   "code": "002150",
+   "name": "正泰电源",
+   "free_date": "2026-11-06",
+   "shares_10k": 162.0,
+   "ratio_pct": 0.4489,
+   "market_cap": 2818.8,
+   "holders": 6.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "603629",
+   "name": "利通电子",
+   "free_date": "2026-11-06",
+   "shares_10k": 120.4,
+   "ratio_pct": 0.3283,
+   "market_cap": 10054.604,
+   "holders": 3.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "603215",
+   "name": "比依股份",
+   "free_date": "2026-11-06",
+   "shares_10k": 2736.6698,
+   "ratio_pct": 12.7527,
+   "market_cap": 39435.411818,
+   "holders": 13.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "603867",
+   "name": "新化股份",
+   "free_date": "2026-11-09",
+   "shares_10k": 54.0,
+   "ratio_pct": 0.2483,
+   "market_cap": 1566.0,
+   "holders": 7.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "920200",
+   "name": "振宏股份",
+   "free_date": "2026-11-09",
+   "shares_10k": 132.0,
+   "ratio_pct": 1.2997,
+   "market_cap": 3816.12,
+   "holders": 3.0,
+   "type": "公开发行战略配售股份"
+  },
+  {
+   "code": "920871",
+   "name": "派特尔",
+   "free_date": "2026-11-09",
+   "shares_10k": 116.226,
+   "ratio_pct": 1.3697,
+   "market_cap": 1213.39944,
+   "holders": 6.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "603162",
+   "name": "海通发展",
+   "free_date": "2026-11-09",
+   "shares_10k": 75.11,
+   "ratio_pct": 0.0546,
+   "market_cap": 782.6462,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "000969",
+   "name": "安泰科技",
+   "free_date": "2026-11-09",
+   "shares_10k": 48.84,
+   "ratio_pct": 0.0465,
+   "market_cap": 723.3204,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "001326",
+   "name": "联域股份",
+   "free_date": "2026-11-09",
+   "shares_10k": 446.3934,
+   "ratio_pct": 6.0983,
+   "market_cap": 41559.22554,
+   "holders": 2.0,
+   "type": "首发原股东限售股份"
+  },
+  {
+   "code": "603092",
+   "name": "德力佳",
+   "free_date": "2026-11-09",
+   "shares_10k": 21428.3408,
+   "ratio_pct": 53.5708,
+   "market_cap": 820705.45264,
+   "holders": 20.0,
+   "type": "首发原股东限售股份,首发战略配售股份"
+  },
+  {
+   "code": "002209",
+   "name": "达意隆",
+   "free_date": "2026-11-09",
+   "shares_10k": 11.2,
+   "ratio_pct": 0.0548,
+   "market_cap": 139.664,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "603486",
+   "name": "科沃斯",
+   "free_date": "2026-11-09",
+   "shares_10k": 152.34,
+   "ratio_pct": 0.2623,
+   "market_cap": 6920.8062,
+   "holders": 4.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "920003",
+   "name": "中诚咨询",
+   "free_date": "2026-11-09",
+   "shares_10k": 7113.358,
+   "ratio_pct": 78.5139,
+   "market_cap": 109616.84678,
+   "holders": 8.0,
+   "type": "公开发行原股东限售股份,公开发行战略配售股份"
+  },
+  {
+   "code": "920157",
+   "name": "宇特光电",
+   "free_date": "2026-11-09",
+   "shares_10k": 1638.5,
+   "ratio_pct": 23.1863,
+   "market_cap": 95540.935,
+   "holders": 22.0,
+   "type": "公开发行原股东限售股份"
+  },
+  {
+   "code": "688469",
+   "name": "芯联集成",
+   "free_date": "2026-11-10",
+   "shares_10k": 115200.0,
+   "ratio_pct": 13.7426,
+   "market_cap": 896256.0,
+   "holders": 1.0,
+   "type": "追加承诺限售股份上市流通"
+  },
+  {
+   "code": "002903",
+   "name": "宇环数控",
+   "free_date": "2026-11-10",
+   "shares_10k": 39.2,
+   "ratio_pct": 0.2518,
+   "market_cap": 898.856,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "300791",
+   "name": "仙乐健康",
+   "free_date": "2026-11-10",
+   "shares_10k": 71.994,
+   "ratio_pct": 0.2336,
+   "market_cap": 1285.81284,
+   "holders": 4.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "301382",
+   "name": "蜂助手",
+   "free_date": "2026-11-10",
+   "shares_10k": 31.1,
+   "ratio_pct": 0.109,
+   "market_cap": 927.713,
+   "holders": 6.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "000410",
+   "name": "沈阳机床",
+   "free_date": "2026-11-10",
+   "shares_10k": 38071.0659,
+   "ratio_pct": 14.3715,
+   "market_cap": 183883.248297,
+   "holders": 1.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "301531",
+   "name": "春光集团",
+   "free_date": "2026-11-11",
+   "shares_10k": 255.6353,
+   "ratio_pct": 1.1634,
+   "market_cap": 10020.90376,
+   "holders": 1.0,
+   "type": "首发机构配售股份"
+  },
+  {
+   "code": "603407",
+   "name": "长裕集团",
+   "free_date": "2026-11-11",
+   "shares_10k": 111.9755,
+   "ratio_pct": 0.2745,
+   "market_cap": 5115.04084,
+   "holders": 1.0,
+   "type": "首发机构配售股份"
+  },
+  {
+   "code": "688479",
+   "name": "友车科技",
+   "free_date": "2026-11-11",
+   "shares_10k": 11480.0,
+   "ratio_pct": 57.0224,
+   "market_cap": 378266.0,
+   "holders": 2.0,
+   "type": "追加承诺限售股份上市流通"
+  },
+  {
+   "code": "603906",
+   "name": "龙蟠科技",
+   "free_date": "2026-11-11",
+   "shares_10k": 9311.5403,
+   "ratio_pct": 11.7702,
+   "market_cap": 159692.916145,
+   "holders": 18.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "601117",
+   "name": "中国化学",
+   "free_date": "2026-11-11",
+   "shares_10k": 1957.23,
+   "ratio_pct": 0.3206,
+   "market_cap": 13778.8992,
+   "holders": 5.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "002239",
+   "name": "奥特佳",
+   "free_date": "2026-11-11",
+   "shares_10k": 674.975,
+   "ratio_pct": 0.1921,
+   "market_cap": 1626.68975,
+   "holders": 2.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "001216",
+   "name": "华瓷股份",
+   "free_date": "2026-11-11",
+   "shares_10k": 3837.3425,
+   "ratio_pct": 13.1435,
+   "market_cap": 84805.26925,
+   "holders": 200.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "300227",
+   "name": "光韵达",
+   "free_date": "2026-11-11",
+   "shares_10k": 625.0,
+   "ratio_pct": 1.0321,
+   "market_cap": 5581.25,
+   "holders": 4.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "300627",
+   "name": "华测导航",
+   "free_date": "2026-11-11",
+   "shares_10k": 11.691,
+   "ratio_pct": 0.0147,
+   "market_cap": 287.94933,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "600918",
+   "name": "中泰证券",
+   "free_date": "2026-11-12",
+   "shares_10k": 35172.9,
+   "ratio_pct": 4.442,
+   "market_cap": 192044.034,
+   "holders": 1.0,
+   "type": "其他类型"
+  },
+  {
+   "code": "920871",
+   "name": "派特尔",
+   "free_date": "2026-11-12",
+   "shares_10k": 17.0,
+   "ratio_pct": 0.2003,
+   "market_cap": 177.48,
+   "holders": 3.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "688535",
+   "name": "华海诚科",
+   "free_date": "2026-11-12",
+   "shares_10k": 843.4546,
+   "ratio_pct": 5.887,
+   "market_cap": 65241.21331,
+   "holders": 5.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "603350",
+   "name": "安乃达",
+   "free_date": "2026-11-12",
+   "shares_10k": 2.0,
+   "ratio_pct": 0.0172,
+   "market_cap": 54.3,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "920021",
+   "name": "流金科技",
+   "free_date": "2026-11-12",
+   "shares_10k": 1730.919,
+   "ratio_pct": 5.6017,
+   "market_cap": 13881.97038,
+   "holders": 1.0,
+   "type": "追加承诺限售股份上市流通"
+  },
+  {
+   "code": "300016",
+   "name": "北陆药业",
+   "free_date": "2026-11-12",
+   "shares_10k": 1881.6568,
+   "ratio_pct": 3.2348,
+   "market_cap": 15391.952624,
+   "holders": 10.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "600292",
+   "name": "电投水电",
+   "free_date": "2026-11-12",
+   "shares_10k": 118442.748,
+   "ratio_pct": 24.8611,
+   "market_cap": 1250755.41888,
+   "holders": 1.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "000998",
+   "name": "隆平高科",
+   "free_date": "2026-11-13",
+   "shares_10k": 15247.7763,
+   "ratio_pct": 10.3765,
+   "market_cap": 124421.854608,
+   "holders": 1.0,
+   "type": "定向增发机构配售股份"
+  },
+  {
+   "code": "688648",
+   "name": "中邮科技",
+   "free_date": "2026-11-13",
+   "shares_10k": 6647.1076,
+   "ratio_pct": 48.8758,
+   "market_cap": 193164.946856,
+   "holders": 1.0,
+   "type": "首发原股东限售股份"
+  },
+  {
+   "code": "603112",
+   "name": "华翔股份",
+   "free_date": "2026-11-13",
+   "shares_10k": 218.943,
+   "ratio_pct": 0.4055,
+   "market_cap": 3242.54583,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "601126",
+   "name": "四方股份",
+   "free_date": "2026-11-13",
+   "shares_10k": 724.56,
+   "ratio_pct": 0.8697,
+   "market_cap": 22345.4304,
+   "holders": 12.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "920068",
+   "name": "天工股份",
+   "free_date": "2026-11-13",
+   "shares_10k": 1525.0,
+   "ratio_pct": 2.3261,
+   "market_cap": 20877.25,
+   "holders": 8.0,
+   "type": "公开发行战略配售股份"
+  },
+  {
+   "code": "002982",
+   "name": "湘佳股份",
+   "free_date": "2026-11-13",
+   "shares_10k": 175.21,
+   "ratio_pct": 0.8623,
+   "market_cap": 2160.3393,
+   "holders": 7.0,
+   "type": "股权激励限售股份"
+  },
+  {
+   "code": "603187",
+   "name": "海容冷链",
+   "free_date": "2026-11-13",
+   "shares_10k": 202.7108,
+   "ratio_pct": 0.5246,
+   "market_cap": 2164.951344,
+   "holders": 1.0,
+   "type": "股权激励限售股份"
   }
  ]
 }
