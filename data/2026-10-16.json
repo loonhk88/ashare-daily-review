@@ -9297,45 +9297,6 @@
  ],
  "missing": [],
  "sector_source": "eastmoney_datacenter",
- "northbound": {
-  "last_time": "15:00",
-  "hgt": -9.28,
-  "sgt": 379.75,
-  "total": 370.47,
-  "points": 262,
-  "tail": [
-   {
-    "t": "14:55",
-    "hgt": -9.35,
-    "sgt": null
-   },
-   {
-    "t": "14:56",
-    "hgt": -10.07,
-    "sgt": null
-   },
-   {
-    "t": "14:57",
-    "hgt": -10.87,
-    "sgt": null
-   },
-   {
-    "t": "14:58",
-    "hgt": -10.52,
-    "sgt": null
-   },
-   {
-    "t": "14:59",
-    "hgt": -10.03,
-    "sgt": null
-   },
-   {
-    "t": "15:00",
-    "hgt": -9.28,
-    "sgt": null
-   }
-  ]
- },
  "suspensions": [
   {
    "code": "603838",

@@ -36,6 +36,9 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 
 missing = []
 
+# 北向资金数据源开关：2026-10-19 实测该接口返回陈旧静态数据，暂不可用
+ENABLE_HSGT = False
+
 
 def note(item, why):
     missing.append({"item": item, "reason": why})
@@ -112,7 +115,17 @@ def ths_limit_up_pool(date):
 
 # --------------------------------------------------------------- 2 北向资金
 def ths_hsgt_realtime():
-    """沪深股通当日分钟累计净买入（亿元）。返回 {hgt, sgt, total, last_time}。"""
+    """沪深股通当日分钟累计净买入（亿元）。
+
+    ⚠️ 2026-10-19 实测结论：该接口返回的是**静态陈旧数据**——
+       连续多次调用、跨交易日（10-16 与 10-19）返回值完全一致
+       （沪股通 -9.28 / 深股通 379.75，262 个时间点分毫不变），
+       且响应体不含日期字段，无法校验时效。
+    交叉验证：东财 kamt 历史的北向净买入从 2026-10-12 起全部为 0.00，
+       印证北向资金实时披露已取消。
+    结论：**该数据源不可用**，默认停用（ENABLE_HSGT=False）。
+    函数保留以备上游修复后重新启用。
+    """
     obj, err = http_json("https://data.hexin.cn/market/hsgtApi/method/dayChart/",
                          headers={"Host": "data.hexin.cn",
                                   "Referer": "https://data.hexin.cn/"},
@@ -278,13 +291,17 @@ def collect(date):
     out["zt_reason"] = reasons
     print("      %s" % ("✓ %d 只" % len(reasons) if reasons else "✗ 无"), file=sys.stderr)
 
-    print("  - 北向资金 ...", file=sys.stderr)
-    hsgt = ths_hsgt_realtime()
-    out["northbound"] = hsgt
-    if hsgt:
-        print("      沪股通 %s / 深股通 %s / 合计 %s 亿（%s）"
-              % (hsgt["hgt"], hsgt["sgt"], hsgt["total"], hsgt["last_time"]),
-              file=sys.stderr)
+    if ENABLE_HSGT:
+        print("  - 北向资金 ...", file=sys.stderr)
+        hsgt = ths_hsgt_realtime()
+        out["northbound"] = hsgt
+        if hsgt:
+            print("      沪股通 %s / 深股通 %s / 合计 %s 亿（%s）"
+                  % (hsgt["hgt"], hsgt["sgt"], hsgt["total"], hsgt["last_time"]),
+                  file=sys.stderr)
+    else:
+        print("  - 北向资金（已停用：数据源返回陈旧静态值）", file=sys.stderr)
+        out["northbound"] = None
 
     print("  - 停复牌 ...", file=sys.stderr)
     susp = em_suspensions(date)
