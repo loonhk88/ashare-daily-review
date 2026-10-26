@@ -804,12 +804,10 @@ def ch12_sources(d, an, date):
              '与部分行情软件的口径可能存在差异。</li>')
     h.append('</ul>')
 
-    fb = d.get("fallbacks") or []
-    if fb:
-        h.append('<h3 class="sub">取数降级记录</h3><ul class="pt">')
-        for x in fb:
-            h.append('<li>%s：主源不可用，%s</li>' % (esc(x.get("item")), esc(x.get("action"))))
-        h.append('</ul>')
+    # 取数降级记录：**不在页面展示**（用户 2026-10-26 要求「取数降级记录不再提醒」）。
+    # 降级 = 主源失败但已由备用源补齐，数据本身是完整的，展示只会造成噪音。
+    # 仍保留在 data/<日>.json 的 fallbacks 字段与 collect.py 的终端输出中，供排查。
+    # ⚠️ 下方「本次未取到的数据项」(missing) 是**真缺失**，必须继续展示，不可一并隐藏。
 
     miss = d.get("missing") or []
     if miss:
