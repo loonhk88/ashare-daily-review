@@ -7,11 +7,15 @@
 - 新浪 hq.sinajs.cn 必须带 Referer 且为 GBK。
 - 腾讯 qt.gtimg.cn 为 GBK。
 - 所有请求默认 12s 超时，最多 3 次指数退避重试。
+- ⚠️ 强制 IPv4 优先（见 netfix.py）：本机 IPv6 路由不通而 DNS 返回 IPv6，
+  不强制则每次请求要等满 timeout 才回退 IPv4，实测单页 30.2s。
 """
 import json
 import time
 import urllib.request
 import urllib.error
+
+import netfix  # noqa: E402  强制 IPv4 优先，必须早于任何 socket 使用
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")

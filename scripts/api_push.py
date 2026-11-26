@@ -15,6 +15,7 @@ import os
 import subprocess
 import sys
 import time
+import netfix  # 强制 IPv4 优先，避免 IPv6 超时（见 netfix.py）
 import urllib.error
 import urllib.request
 

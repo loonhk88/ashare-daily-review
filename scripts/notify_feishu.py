@@ -19,6 +19,7 @@ import datetime as dt
 import json
 import os
 import sys
+import netfix  # 强制 IPv4 优先，避免 IPv6 超时（见 netfix.py）
 import urllib.error
 import urllib.request
 
